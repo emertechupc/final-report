@@ -14,6 +14,12 @@ Mi nombre es Ángel Omar Meneses Torres, nací el 18 de enero de 2003 en la ciud
 
 Mi nombre es Kolya Andrei Castañeda Chambi. Nací el 28 de mayo de 2003 en la ciudad heroica de Tacna. Actualmente, tengo 19 años y estoy estudiando la carrera de Ingeniería de Software, séptimo ciclo, en la UPC.  Desde pequeño, el hecho de crear una aplicación y saber cómo funciona es algo que siempre ha captado mi atención. Por ello, cuando estuve cursando mi tercer año de secundaria decidí llevar un curso de Java. En él, pude aprender todo acerca de este lenguaje y quedarme aún más fascinado por el mundo de la programación. Entre mis principales habilidades se encuentran la gran capacidad de retener información, la empatía y el ser resiliente, es decir, la capacidad para sobreponerse ante adversidades.
 
+Mi nombre es Franco Emmanuel Vasquez Poma, actualmente tengo 21 años, me encuentro cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, elegí esta profesión porque siempre he tenido un interés por el desarrollo y la evolución de la tecnología, además es la única carrera con la que me siento identificado. Respecto a mis habilidades considero que soy muy bueno en matemáticas, además de ser hábil con la lógica y el razonamiento. Antes de iniciar mis estudios universitarios llevé cursos de programación en la Universidad Nacional de Ingeniería.
+
+Me llamo Jherico Fretd Solier Vargas, tengo 21 años y soy un estudiante de séptimo ciclo de la carrera de Ingeniería de Software en UPC. Elegí esta carrera, porque me gusta mucho interactuar con los dispositivos tecnológicos, además de conocer bien cómo funcionan todos los programas, sistemas operativos, para así poder algún día ser parte de las personas que lo desarrollan.
+
+Mi nombre es James Renzo Hurtado Gonzales y tengo 21 años. Actualmente, soy estudiante en el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera debido a mi interés en la forma en que la tecnología optimiza nuestro estilo de vida y desempeña un papel fundamental en la solución de problemáticas actuales. En mi tiempo libre, aparte de la programación, me gusta escuchar música, tomar fotografías y leer.Me considero una persona responsable y decidida, además de trabajar de manera colaborativa.
+
 ## Solution Profile
 
 ### Antecedentes y problemática
