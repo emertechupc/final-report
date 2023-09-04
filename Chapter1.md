@@ -71,3 +71,9 @@ La pregunta que buscamos responder es la siguiente: ¿Cómo mejoramos la eficaci
 #### Lean UX Canvas
 
 Luego de aplicar debidamente el proceso Lean UX, tomando en consideración la visión y misión de nuestra startup, así como los procesos principales del negocio en el que se basa nuestra solución, mostramos el siguiente canvas:
+
+## Segmentos objetivo
+
+Nuestro segmento objetivo consiste principalmente de tiendas comerciales, las cuales podrán generar una experiencia interactiva entre las prendas y los compradores, permitiéndoles incrementar sus ventas gracias a una mejor experiencia disponible para sus usuarios.
+
+Asimismo, los usuarios de nuestros usuarios se convierten en nuestros usuarios indirectos, ya que interactuarán con el sistema de Fitster cuando ingresen a un probador de una de las tiendas que haya contratado nuestro producto.
