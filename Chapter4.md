@@ -1,4 +1,5 @@
 # Strategic-Level Software Design
+
 ## Strategic-Level Attribute Driven Design
 
 En esta sección, realizaremos el proceso de Attribute-Driven Design para abordar nuestra solución centrada en productos y tecnologías de Digital Transformation. Comenzaremos con una introducción seguida de un detallado análisis de los elementos y exploraremos el proceso de diseño, Inputs, Architectural Drivers, Design Decisions, Quality Attribute Scenarios and Initial High-Level Solution Architecture Views.
@@ -8,6 +9,7 @@ En esta sección, realizaremos el proceso de Attribute-Driven Design para aborda
 El propósito fundamental del proceso de diseño de nuestra solución es abordar de manera efectiva la problemática que enfrentan tanto las tiendas por departamento como los consumidores. Buscamos transformar la experiencia de compra, proporcionando a nuestros clientes la capacidad de explorar, probar y verificar la disponibilidad de prendas de vestir de manera virtual, a través de realidad aumentada. Se tiene como objetivo satisfacer las necesidades de los segmentos objetivo al ofrecer una experiencia de compra más personalizada e impulsar el crecimiento y la eficiencia en el negocio de las tiendas por departamento.
 
 ### Attribute-Driven Design Inputs
+
 #### Primary Funcionality (Primary User Stories)
 
 | Epic / User Story ID  | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID)  |
@@ -56,7 +58,7 @@ A continuación, se detalla la explicación del proceso siguiendo los Stages del
 |           |                  |              |              |
 |           |                  |              |              |
 
-### Architectural Design Decisions
+### Quality Attribute Scenario Refinements
 
 En la siguiente sección se especifican la relación de escenarios priorizados para atributos de calidad.
 
