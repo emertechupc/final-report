@@ -20,6 +20,8 @@ Somos un emprendimiento dedicado a la ideación e implementación de herramienta
 
 **James Renzo Hurtado Gonzales** *(21 años)*. Estudiante en el octavo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera debido a mi interés en la forma en que la tecnología optimiza nuestro estilo de vida y desempeña un papel fundamental en la solución de problemáticas actuales. En mi tiempo libre, aparte de la programación, me gusta escuchar música, tomar fotografías y leer.Me considero una persona responsable y decidida, además de trabajar de manera colaborativa.
 
+**Juben Cacha**  *(22 años)*. Estudiante de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Elegí la carrera porque me interesa conocer todo sobre cómo la tecnología es desarrollada. Además, quiero ser parte de la gran transformación digital que el mundo se encuentra atravesando. Mis pasatiempos son los videojuegos, la cocina, el gimnasio y los viajes.
+
 ## Solution Profile
 
 ### Antecedentes y problemática
