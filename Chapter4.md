@@ -44,9 +44,11 @@ A continuación, se establecen el conjunto de Architectural Drivers como parte d
 
 | Driver ID | Título de Driver | Descripción | Importancia para Stakeholders (High, Medium, Low) | Impacto en Architecture Technical Complexity (High, Medium, Low) |
 |-----------|------------------|-------------|-----------------------------------------------|-----------------------------|
-|           |                  |             |                                               |                             |                                        |
-|           |                  |             |                                               |                             |                                        |
-|           |                  |             |                                               |                             |                                        |
+| AD01          | Design Purpose|El objetivo primordial de la propuesta es acelerar los tiempos de ejecución en el sistema, otorgando una alta precisión cuyo resultado sea de alta fidelidad.|Medium|Medium|
+| AD02          | Quality Attributes|Nuestros principales atributos de calidad a ofrecer son **rendimiento**, **fiabilidad** y **usabilidad**.|High|High|
+| AD03          | Primary functionality|La funcionalidad principal que nuestro sistema ofrecerá es el **probarse prendas de vestir a través de realidad aumentada**, logrando acelerar el proceso y tener una precisión muy similar a probarse la prenda físicamente. |High|High|
+| AD04          | Architectural Concerns|Nos preocupa que la aplicación tarde más de lo esperado en mostrar el modelo al usuario. Otra preocupación es no poder asegurar al usuario confiabilidad y alta precisión al probarse sus prendas. Una preocupación adicional es proponer una arquitectura adecuada para soportar todos los procesos, consultas y envío/recepción de información considerados por el sistema, siguiendo la línea de uso de realidad aumentada como tecnología emergente. |Medium|Medium|
+| AD05          | Constraints|El sistema debe poder accederse desde la mayoría de dispositivos móviles gama media/alta con los suficientes recursos para soportar y facilitar la inclusión de realidad aumentada en la vista del usuario. En ese sentido, la aplicación debe ser de fácil uso y acceso para diversos tipos de usuario, resultando intuitiva e interactiva. También, el sistema debe recuperar la información de inventario de productos de la tienda asociada a través del sistema externo existente.   |High|High|
 
 ### Architectural Design Decisions
 
