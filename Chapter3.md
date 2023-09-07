@@ -38,3 +38,18 @@ En la presente sección se presenta el Impact Mapping de nuestro modelo de negoc
 Como se puede observar en el artefacto se han incluido los Bussiness Goals. Asimismo, hemos incluido los Actors que en este caso serían nuestros User Personas analizados previamente. Por un lado, en la columna Impact hemos incluido los enunciados de cómo deseamos que los User Persona cambien o se comporten. También se responde a la pregunta “¿Qué tendría él/ella que hacer para ayudar a que se logre la meta?”. Por otro lado, en la columna Deliverables se incluye los elementos que respondan la pregunta “¿Qué puedo hacer como negocio digital para provocar esos Impacts?”. Por último, en la columna User Stories se incluye la descripción de los User Stories empleando el formato “**Como**... **quiero**... **para**...”, el cual permite obtener los features que nos ayudarán a producir los Deliverables identificados.
 
 ![Impact Map](assets/impact-map.png "Impact Map")
+
+## Product Backlog
+
+En esta sección se incluirán los User Stories con su respectiva estimación y priorización.
+
+| # Orden | User Story ID | Título | Descripción | Story Points (1/2/3/5/8) |
+| :-----: | :-----------: | :----: | :---------: | :----------------------: |
+| 1 |US01|Realidad aumentada para observar productos|Como cliente, quiero que mediante realidad aumentada pueda observar una representación de un producto, para poder conocerlo de mejor manera| 8 |
+| 2 |US06|Selección de diferentes modelos o colores de prenda|Como cliente, quiero personalizar el modelo o colores de la prenda que me probaré virtualmente para ampliar mis opciones de compra| 2 |
+| 3 |US07|Búsqueda de un artículo|Como cliente, quiero buscar un producto en particular en una barra de búsqueda para obtener resultados de prendas de vestir que quiera probarme| 3 |
+| 4 |US08|Solicitud de asistencia a un trabajador|Como cliente, quiero que un trabajador de la tienda me traiga una prenda seleccionada para probármela físicamente| 8 |
+| 5 |US05|Agregar productos a la lista de favoritos|Como cliente, quiero agregar productos a una lista de favoritos, para organizar mejor los productos que son de mi interés y mejorar las recomendaciones| 1 |
+| 6 |US04|Generación de orden de compra|Como cliente quiero generar una orden de compra para poder pagar la prenda que he decido que me llevaré| 5 |
+| 7 |US02|Creación de cuenta con el proveedor de la tienda|Como cliente, quiero poder crear una cuenta para guardar mis datos, preferencias y obtener mejores recomendaciones en el futuro| 5 |
+| 8 |US03|Lectura de código QR para inicio de sesión|Como cliente quiero leer el código QR que se encuentra en la pantalla del probador para obtener recomendaciones personalizadas a mis gustos| 3 |
