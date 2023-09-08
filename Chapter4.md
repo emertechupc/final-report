@@ -13,8 +13,22 @@ El propósito fundamental del proceso de diseño de nuestra solución es abordar
 #### Primary Funcionality (Primary User Stories)
 
 | Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-| -------------------- | ------ | ----------- | ----------------------- | ------------------------- |
-|                      |        |             |                         |                           |
+| EP02 | Funcionalidades de probador | Como cliente, quiero contar con las funcionalidades de un probador de prendas para probarme ropa de manera virtual. | - | - |
+| EP03 | Asociación con tiendas | Como dueño de una tienda, quiero asociar mi negocio con el probador virtual para que mis clientes puedan acceder y comprar mis productos desde esta interfaz. | - | - |
+| US01 | Realidad aumentada para observar productos | Como cliente, quiero que mediante realidad aumentada pueda observar una representación de un producto, para poder conocerlo de mejor manera. | AC01
+Dado que me encuentro en el apartado de realidad aumentada. 
+Cuando elija el producto a mostrar
+And le otorgue permiso al uso de realidad aumentada
+Entonces la aplicación utilizará la cámara del equipo y mostrará el producto | EP02 |
+| US03 | Lectura de código QR para inicio de sesión | Como cliente quiero leer el código QR que se encuentra en la pantalla del probador para obtener recomendaciones personalizadas a mis gustos. | AC03
+Dado que encuentro el código QR en la pantalla
+Cuando abra la aplicación de la tienda y escanee el código
+Entonces el probador cargará mi perfil de recomendaciones e información personal
+Y podré obtener recomendaciones personalizadas | EP02 |
+| US04 | Generación de orden de compra | Como cliente quiero generar una orden de compra para poder pagar la prenda que he decido que me llevaré. | AC04
+Dado que tengo la prenda que me quiero llevar conmigo
+Cuando seleccione comprar prenda
+Entonces se me permitirá realizar el pago de la prenda en la caja o a través de un POS integrado | EP03 |
 
 #### Quality attribute scenarios
 
@@ -46,15 +60,12 @@ En esta sección, presentaremos la especificación inicial de los Quality Attrib
 
 #### Constraints
 
-En esta sección se incluye la especificación de las restricciones que provienen tanto del cliente como de las necesidades comerciales, y serán claves para guiar nuestra solución. En la siguiente tabla, presentaremos estas restricciones en forma de "Technical Stories", detallando cada una de ellas en filas.
-
 | Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | ------------------ | ------ | ----------- | ----------------------- | ------------------------- |
-|                    |        |             |                         |                           |
-|                    |        |             |                         |                           |
-|                    |        |             |                         |                           |
-
-Estas restricciones deben ser consideradas al diseñar la arquitectura del sistema para asegurarse de que el sistema sea eficiente, seguro y cumpla con los requisitos y limitaciones establecidos.
+| TS01 | Integración con Sistemas de Tiendas por departamento | La integración con los sistemas de tiendas existentes puede estar limitada por la compatibilidad y los recursos disponibles en las tiendas. | DADO que se inicie el proceso de integración con una tienda por departamento, CUANDO se establezca la comunicación y se compartan datos entre el software y la tienda, ENTONCES se debe confirmar que la integración se ha realizado con éxito, lo que se reflejará en la capacidad del software para acceder y utilizar los datos de esa tienda de manera efectiva. | EP03 |
+| TS02 | Limitación de Recursos de Hardware | Las capacidades de hardware disponibles en los probadores convencionales pueden limitar la ejecución de características de realidad aumentada y procesamiento. | DADO que el software se esté ejecutando en el probador virtual con dispositivos de cierta antiguedad, CUANDO se realice una acción que requiera el uso intensivo de recursos ENTONCES el software debe responder de manera eficiente y sin retrasos significativos para proporcionar una experiencia fluida al usuario. | EP02 |
+| TS03 | Disponibilidad de Conexión a Internet | La disponibilidda de una conexión a internet confiable puede ser una limitación en algunos probadores. | DADO que el software esté operando en condiciones de baja conectividad, CUANDO se realice una acción que requiera acceso a datos o recursos en línea, ENTONCES el software debe mantener su funcionalidad y rendimiento de manera óptima, asegurando que los usuarios puedan seguir utilizando las funcionalidades críticas incluso en condiciones de baja conectividad sin interrupciones significativas. | EP01, EP03 |
+| TS04 | Compatibilidad con Dispositivos Móviles | El software de probador virtual debe ser compatible con una variedad de dispositivos móviles para brindar una experiencia óptima. | DADO que se ejecute el software en una variedad de dispositivos móviles, CUANDO el usuario inicie el software en un dispositivo específico, ENTONCES el software debe ser capaz de funcionar de manera compatible y sin problemas en dispositivos que ejecuten sistemas operativos tanto iOS como Android. | EP02 |
 
 ### Architectural Drivers Backlog
 
