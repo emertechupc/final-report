@@ -13,6 +13,7 @@ El propósito fundamental del proceso de diseño de nuestra solución es abordar
 #### Primary Funcionality (Primary User Stories)
 
 | Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| -------------------- | ------ | ----------- | ----------------------- | ------------------------- |
 | EP02 | Funcionalidades de probador | Como cliente, quiero contar con las funcionalidades de un probador de prendas para probarme ropa de manera virtual. | - | - |
 | EP03 | Asociación con tiendas | Como dueño de una tienda, quiero asociar mi negocio con el probador virtual para que mis clientes puedan acceder y comprar mis productos desde esta interfaz. | - | - |
 | US01 | Realidad aumentada para observar productos | Como cliente, quiero que mediante realidad aumentada pueda observar una representación de un producto, para poder conocerlo de mejor manera. | AC01 DADO que me encuentro en el apartado de realidad aumentada, CUANDO elija el producto a mostrar Y le otorgue permiso al uso de realidad aumentada, ENTONCES la aplicación utilizará la cámara del equipo y mostrará el producto | EP02 |
