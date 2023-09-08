@@ -2,7 +2,11 @@
 
 ## To-Be Scenario Mapping
 
+Nos brinda una visión de la experiencia futura de usuario y es un gran artefacto para poner frente a frente a las a las partes interesadas. En el caso del usuario cliente notamos que un punto importante es el tener la capacidad de probarse por medio de su dispositivo móvil las prendas que sean de su agrado.
+
 ![To-Be Scenario Map - Usuario Cliente](assets/Tobe-1.png "To-Be Scenario Map - Usuario Cliente")
+
+En el caso de las tiendas comerciales vemos que la capacidad de ofrecer el servicio adicional con el cual los clientes pueden probarse cualquier prenda representan un punto importante para resolver los problemas que se presentaban en el As-is Scenario Map.
 
 ![To-Be Scenario Map - Tienda Comercial](assets/Tobe-2.png "To-Be Scenario Map - Tienda Comercial")
 
