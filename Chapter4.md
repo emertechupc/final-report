@@ -20,28 +20,28 @@ El propósito fundamental del proceso de diseño de nuestra solución es abordar
 
 En esta sección, presentaremos la especificación inicial de los Quality Attribute Scenarios que desempeñarán un papel fundamental en la configuración de la arquitectura de nuestra solución. En la siguiente tabla, detallaremos estos Quality Attribute Scenarios para dar forma a nuestra visión arquitectónica.
 
-| Atributo   | Fuente        | Estímulo                                                        | Artefacto                   | Entorno                           | Respuesta                                                                                                                        | Medida                                                                 |
-| ---------- | ------------- | --------------------------------------------------------------- | --------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
 | Fiabilidad | Cliente final | Búsqueda de prendas después de una falla de conexión a Internet | Sistema de probador virtual | Conexión inestable o intermitente | El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente | El 95% de las operaciones fueron exitosas durante la falla de conexión |
 
-| Atributo   | Fuente        | Estímulo                                                       | Artefacto                   | Entorno                                 | Respuesta                                                                                                         | Medida                                                                                          |
-| ---------- | ------------- | -------------------------------------------------------------- | --------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Fiabilidad | Cliente final | El usuario reinicia el sistema después de un fallo de hardware | Sistema de probador virtual | Sistema en estado de reinicio por fallo | El sistema inicia correctamente y recupera el estado previo, permitiendo al usuario continuar con sus actividades | El tiempo de inicio es menor a 3 minutos y el porcentaje de éxito en la recuperación es del 99% |
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
+| Fiabilidad | Cliente final | El usuario reinicia el sistema después de un fallo de hardware |  Sistema de probador virtual  | Sistema en estado de reinicio por fallo | El sistema inicia correctamente y recupera el estado previo, permitiendo al usuario continuar con sus actividades | El tiempo de inicio es menor a 3 minutos y el porcentaje de éxito en la recuperación es del 99% |
 
-| Atributo   | Fuente              | Estímulo                                                                      | Artefacto                             | Entorno                               | Respuesta                                                                                                                  | Medida                                                                                          |
-| ---------- | ------------------- | ----------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Usabilidad | Nuevo cliente final | El usuario visualiza la página de inicio del probador virtual por primera vez | Página de inicio del probador virtual | Página principal del probador virtual | El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir | El porcentaje de nuevos usuarios que identifican claramente el próposito del software es de 90% |
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
+| Usabilidad | Nuevo cliente final | El usuario visualiza la página de inicio del probador virtual por primera vez |  Página de inicio del probador virtual  | Página principal del probador virtual | El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir | El porcentaje de nuevos usuarios que identifican claramente el próposito del software es de 90% |
 
-| Atributo   | Fuente        | Estímulo                                                               | Artefacto                    | Entorno                     | Respuesta                                                                                                      | Medida                                                                                        |
-| ---------- | ------------- | ---------------------------------------------------------------------- | ---------------------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
 | Usabilidad | Cliente final | El usuario selecciona una prenda y la visualiza en el probador virtual | Vista detallada de la prenda | Sistema de probador virtual | El usuario puede operar y controlar las funciones del probador virtual para visualizar la prenda con facilidad | El tiempo promedio para que un usuario seleccione y visualice una prenda es menor a 2 minutos |
 
-| Atributo                | Fuente        | Estímulo                                                                | Artefacto                    | Entorno                                          | Respuesta                                                     | Medida                                                                              |
-| ----------------------- | ------------- | ----------------------------------------------------------------------- | ---------------------------- | ------------------------------------------------ | ------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
 | Eficiencia de desempeño | Cliente final | El usuario selecciona una prenda para visualizar en el probador virtual | Vista detallada de la prenda | Tienda con conexión a Internet de alta velocidad | El sistema carga y visualiza la prenda en el probador virtual | El tiempo promedio de carga de prendas en el probador virtual es menor a 2 segundos |
 
-| Atributo                | Fuente        | Estímulo                                                                                  | Artefacto                    | Entorno                                          | Respuesta                                                                                              | Medida                                                                                                      |
-| ----------------------- | ------------- | ----------------------------------------------------------------------------------------- | ---------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
 | Eficiencia de desempeño | Cliente final | El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual | Vista detallada de la prenda | Tienda con conexión a Internet de alta velocidad | El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento | El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 10 |
 
 #### Constraints
@@ -61,20 +61,20 @@ Estas restricciones deben ser consideradas al diseñar la arquitectura del siste
 A continuación, se establecen el conjunto de Architectural Drivers como parte del proceso iterativo en el proceso de Quality Attribute Workshop. Se incluyen los Functional Drivers seleccionados, los Quality Attribute Drivers seleccionados y todos los Constraints.
 
 | Driver ID | Título de Driver | Descripción | Importancia para Stakeholders (High, Medium, Low) | Impacto en Architecture Technical Complexity (High, Medium, Low) |
-| --------- | ---------------- | ----------- | ------------------------------------------------- | ---------------------------------------------------------------- | --- |
-|           |                  |             |                                                   |                                                                  |     |
-|           |                  |             |                                                   |                                                                  |     |
-|           |                  |             |                                                   |                                                                  |     |
+|-----------|------------------|-------------|-----------------------------------------------|-----------------------------|
+|           |                  |             |                                               |                             |                                        |
+|           |                  |             |                                               |                             |                                        |
+|           |                  |             |                                               |                             |                                        |
 
 ### Architectural Design Decisions
 
 A continuación, se detalla la explicación del proceso siguiendo los Stages del Quality Attribute Workshop, resumiendo para cada iteración, cuáles fueron los Drivers considerados, las tácticas y patrones que se evaluaron y los criterios para llegar sus decisiones de diseño.
 
-| Driver ID | Título de Driver | Pattern 1 |
-| --------- | ---------------- | --------- | --- |
-|           |                  | Pro       | Con |
-|           |                  |           |     |
-|           |                  |           |     |
+| Driver ID | Título de Driver | Pattern 1               |
+|-----------|------------------|------------------------|
+|           |                  | Pro          | Con          |
+|           |                  |              |              |
+|           |                  |              |              |
 
 ### Quality Attribute Scenario Refinements
 
