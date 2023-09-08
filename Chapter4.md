@@ -12,29 +12,31 @@ El propósito fundamental del proceso de diseño de nuestra solución es abordar
 
 #### Primary Funcionality (Primary User Stories)
 
-| Epic / User Story ID  | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID)  |
-|-----------|-----------|-----------|-----------|-----------|
-| |  | |  |  |
+| Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| -------------------- | ------ | ----------- | ----------------------- | ------------------------- |
+|                      |        |             |                         |                           |
 
 #### Quality attribute scenarios
 
 En esta sección, presentaremos la especificación inicial de los Quality Attribute Scenarios que desempeñarán un papel fundamental en la configuración de la arquitectura de nuestra solución. En la siguiente tabla, detallaremos estos Quality Attribute Scenarios para dar forma a nuestra visión arquitectónica.
 
-| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
-|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |
+| Atributo   | Fuente        | Estímulo                                                        | Artefacto                   | Entorno                           | Respuesta                                                                                                                        | Medida                                                                 |
+| ---------- | ------------- | --------------------------------------------------------------- | --------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Fiabilidad | Cliente final | Búsqueda de prendas después de una falla de conexión a Internet | Sistema de probador virtual | Conexión inestable o intermitente | El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente | El 95% de las operaciones fueron exitosas durante la falla de conexión |
+
+| Atributo   | Fuente        | Estímulo                                                       | Artefacto                   | Entorno                                 | Respuesta                                                                                                         | Medida                                                                                          |
+| ---------- | ------------- | -------------------------------------------------------------- | --------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Fiabilidad | Cliente final | El usuario reinicia el sistema después de un fallo de hardware | Sistema de probador virtual | Sistema en estado de reinicio por fallo | El sistema inicia correctamente y recupera el estado previo, permitiendo al usuario continuar con sus actividades | El tiempo de inicio es menor a 3 minutos y el porcentaje de éxito en la recuperación es del 99% |
 
 #### Constraints
 
 En esta sección se incluye la especificación de las restricciones que provienen tanto del cliente como de las necesidades comerciales, y serán claves para guiar nuestra solución. En la siguiente tabla, presentaremos estas restricciones en forma de "Technical Stories", detallando cada una de ellas en filas.
 
-| Technical Story ID | Título             | Descripción              | Criterios de Aceptación | Relacionado con (Epic ID) |
-|--------------------|---------------------|--------------------------|-------------------------|--------------------------|
-|                    |                     |                          |                         |                          |
-|                    |                     |                          |                         |                          |
-|                    |                     |                          |                         |                          |
+| Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| ------------------ | ------ | ----------- | ----------------------- | ------------------------- |
+|                    |        |             |                         |                           |
+|                    |        |             |                         |                           |
+|                    |        |             |                         |                           |
 
 Estas restricciones deben ser consideradas al diseñar la arquitectura del sistema para asegurarse de que el sistema sea eficiente, seguro y cumpla con los requisitos y limitaciones establecidos.
 
@@ -43,20 +45,20 @@ Estas restricciones deben ser consideradas al diseñar la arquitectura del siste
 A continuación, se establecen el conjunto de Architectural Drivers como parte del proceso iterativo en el proceso de Quality Attribute Workshop. Se incluyen los Functional Drivers seleccionados, los Quality Attribute Drivers seleccionados y todos los Constraints.
 
 | Driver ID | Título de Driver | Descripción | Importancia para Stakeholders (High, Medium, Low) | Impacto en Architecture Technical Complexity (High, Medium, Low) |
-|-----------|------------------|-------------|-----------------------------------------------|-----------------------------|
-|           |                  |             |                                               |                             |                                        |
-|           |                  |             |                                               |                             |                                        |
-|           |                  |             |                                               |                             |                                        |
+| --------- | ---------------- | ----------- | ------------------------------------------------- | ---------------------------------------------------------------- | --- |
+|           |                  |             |                                                   |                                                                  |     |
+|           |                  |             |                                                   |                                                                  |     |
+|           |                  |             |                                                   |                                                                  |     |
 
 ### Architectural Design Decisions
 
 A continuación, se detalla la explicación del proceso siguiendo los Stages del Quality Attribute Workshop, resumiendo para cada iteración, cuáles fueron los Drivers considerados, las tácticas y patrones que se evaluaron y los criterios para llegar sus decisiones de diseño.
 
-| Driver ID | Título de Driver | Pattern 1               |
-|-----------|------------------|------------------------|
-|           |                  | Pro          | Con          |
-|           |                  |              |              |
-|           |                  |              |              |
+| Driver ID | Título de Driver | Pattern 1 |
+| --------- | ---------------- | --------- | --- |
+|           |                  | Pro       | Con |
+|           |                  |           |     |
+|           |                  |           |     |
 
 ### Quality Attribute Scenario Refinements
 
