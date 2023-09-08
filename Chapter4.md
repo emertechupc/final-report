@@ -81,6 +81,98 @@ A continuación, se detalla la explicación del proceso siguiendo los Stages del
 
 En la siguiente sección se especifican la relación de escenarios priorizados para atributos de calidad.
 
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 1</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Fiabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">Búsqueda de prendas después de una falla de conexión a Internet</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Conexión inestable o intermitente</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Sistema de probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El 95% de las operaciones fueron exitosas durante la falla de conexión</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 2</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Fiabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario reinicia el sistema después de un fallo de hardware</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Sistema en estado de reinicio por fallo</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Sistema de probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema inicia correctamente y recupera el estado previo, permitiendo al usuario continuar con sus actividades</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El tiempo de inicio es menor a 3 minutos y el porcentaje de éxito en la recuperación es del 99%</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+</table>
+
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 3</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Usabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario visualiza la página de inicio del probador virtual por primera vez</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Nuevo cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Página de inicio del probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Página principal del probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El porcentaje de nuevos usuarios que identifican claramente el propósito del software es de 90%</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 4</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Usabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona una prenda y la visualiza en el probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Vista detallada de la prenda</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Sistema de probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El usuario puede operar y controlar las funciones del probador virtual para visualizar la prenda con facilidad</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El tiempo promedio para que un usuario seleccione y visualice una prenda es menor a 2 minutos</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 5</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Eficiencia de desempeño</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona una prenda para visualizar en el probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Tienda con conexión a Internet de alta velocidad</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Vista detallada de la prenda</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema carga y visualiza la prenda en el probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El tiempo promedio de carga de prendas en el probador virtual es menor a 2 segundos</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 6</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Eficiencia de desempeño</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Tienda con conexión a Internet de alta velocidad</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Vista detallada de la prenda</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 10</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+</table>
+
+
 ## Strategic-Level Domain-Driven Design
 
 ### EventStorming
