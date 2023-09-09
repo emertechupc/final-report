@@ -1,0 +1,76 @@
+### **Student Outcome**
+
+ABET – EAC - Student Outcome 3
+
+Criterio: _Capacidad de comunicarse efectivamente con un rango de audiencias._
+
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+<table>
+  <tr>
+    <th>Criterio específico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
+    <td>
+      <strong>TB1</strong>
+      <br>
+      <p>
+        Cacha: Se indicaron los puntos a realizar entre los miembros de equipo y se pudo apoyar para completar la entrega y hacer las correciones indicadas.
+      </p>
+      <p>
+        Castañeda: La comunicación fue de suma importancia para intercambiar opiniones con los integrantes del grupo y, de esa manera, obtener resultados significativos.
+      </p>
+      <p>
+        Hurtado: Se mantuvo una comunicación eficaz entre los miembros del equipo con el objetivo de delimitar bien el alcance del proyecto y completar las tareas asignadas para el primer entregable.
+      </p>
+      <p>
+        Meneses: Estuvimos en constante coordinación con los compañeros de equipo para cumplir con los objetivos de la entrega y también comunicar los alcances de nuestra solución en las sesiones de clase para recibir retroalimentación al respecto. 
+      </p>
+      <p>
+        Solier: Se promovió la colaboración entre los miembros al asegurarse de que todos tuvieran la oportunidad de expresar sus ideas y perspectivas. Esto contribuyó a un ambiente de trabajo armonioso y a la toma de decisiones basada en consenso, fortaleciendo así la eficacia del equipo en la consecución de los objetivos del proyecto.
+      </p>
+      <p>
+        Vasquez: Se promovió una comunicación efectiva entre los integrantes del equipo, con el fin de precisar el alcance del proyecto y asegurar la consecución exitosa de las tareas asignadas para este entregable.
+      </p>
+    </td>
+    <td>
+      <strong>TB1</strong>
+      <p>
+        Entre miembros de equipo logramos comunicarnos continua y efectivamente, de tal forma pudimos coordinar a tiempo los alcances de la entrega para cumplir con los límites y poder lograr los objetivos trazados para este primer entregable.  
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
+    <td>
+      <strong>TB1</strong>
+      <p>
+        Cacha: Se redactaron las secciones del capítulo cuatro para poder identificar las restricciones y las historias de usuario que contienen la funcionalidad principal de nuestra propuesta.
+      </p>
+      <p>
+        Castañeda: La redacción de estos capítulos fue un punto que se tuvo muy en cuenta, ya que generar documentación idónea para este proyecto permitirá su escalamiento y mantenimiento.
+      </p>
+      <p>
+        Hurtado: Se completaron de manera satisfactoria las tareas relacionadas con la documentación del proyecto de manera que pueda ser fácilmente entendible por diversas personas.
+      </p>
+      <p>
+        Meneses: Redactamos los alcances de nuestra solución a nivel de análisis problemático y propuesta de solución desde una perspectiva general, que más adelante detallaremos con la implementación.
+      </p>
+      <p>
+        Solier: Se demostró una sólida habilidad para redactar de manera clara y coherente en todos los capítulos del proyecto, asegurando que la documentación sea accesible y comprensible para una audiencia diversa. Su contribución garantizó que el contenido sea fácilmente entendible por un amplio público, lo que es esencial para el éxito y escalabilidad del proyecto.
+      </p>
+      <p>
+        Vasquez: En este entregable se logró realizar de manera efectiva la redacción de todos los capítulos, debido a que es importante que todo lo desarrollado sea entendible para un grupo de diversas personas.
+      </p>
+    </td>
+    <td>
+      <strong>TB1</strong>
+      <p>
+        Logramos redactar las bases de nuestra solución, aplicando correctamente técnicas previamente estudiantes para el análisis de problema, la definición de historias de usuario y el uso de metodologías como DDD y ADD para analizar los enfoques estratégicos de nuestra propuesta. 
+      </p>
+    </td>
+  </tr>
+</table>
