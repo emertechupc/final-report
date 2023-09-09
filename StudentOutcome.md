@@ -24,7 +24,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Castañeda: La comunicación fue de suma importancia para intercambiar opiniones con los integrantes del grupo y, de esa manera, obtener resultados significativos.
       </p>
       <p>
-        Hurtado: 
+        Hurtado: Se mantuvo una comunicación eficaz entre los miembros del equipo con el objetivo de delimitar bien el alcance del proyecto y completar las tareas asignadas para el primer entregable.
       </p>
       <p>
         Meneses: Estuvimos en constante coordinación con los compañeros de equipo para cumplir con los objetivos de la entrega y también comunicar los alcances de nuestra solución en las sesiones de clase para recibir retroalimentación al respecto. 
@@ -49,7 +49,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Castañeda: La redacción de estos capítulos fue un punto que se tuvo muy en cuenta, ya que generar documentación idónea para este proyecto permitirá su escalamiento y mantenimiento.
       </p>
       <p>
-        Hurtado: 
+        Hurtado: Se completaron de manera satisfactoria las tareas relacionadas con la documentación del proyecto de manera que pueda ser fácilmente entendible por diversas personas.
       </p>
       <p>
         Meneses: Redactamos los alcances de nuestra solución a nivel de análisis problemático y propuesta de solución desde una perspectiva general, que más adelante detallaremos con la implementación.
