@@ -50,7 +50,7 @@ Analizamos la problemática mediante la técnica de las 5W (*Who, What, Where Wh
 
 Hemos notado que los compradores de prendas de vestir no tienen acceso completo a todas las prendas de la tienda mientras se encuentran en el probador, causando un mayor tiempo de búsqueda de productos con la talla y personalización deseada. Asimismo, estos probadores normalmente cuentan con un número máximo de prendas que los clientes pueden ingresar, limitando la cantidad de opciones que el cliente puede explorar y probarse.
 
-La pregunta que buscamos responder es la siguiente: ¿Cómo mejoramos la eficacia de conversiones en el proceso de prueba y compra de ropa logrando que los clientes se encuentren satisfechos y decidan llevarse las prendas?
+La pregunta que buscamos responder es la siguiente: ¿Cómo mejoramos la eficiencia de la prueba de prendas de vestir y compra de ropa de manera online, logrando que los clientes se encuentren satisfechos?
 
 #### Lean UX Assumptions
 
