@@ -268,35 +268,8 @@ A continuación, se detalla la explicación del proceso siguiendo los Stages del
 
 <table>
   <tr>
-    <th>Driver ID</th>
-    <th>Description</th>
-    <th>Exception Detection</th>
-    <th>Encapsulate</th>
-    <th></th>
-    <th></th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>Pro</td>
-    <td>Con</td>
-    <td>Pro</td>
-    <td>Con</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Ninguno</td>
-    <td>Ninguno</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
     <th colspan="1" rowspan="2" valign="top">Driver ID</th>
-    <th colspan="1" rowspan="2" valign="top">Description</th>
+    <th colspan="1" rowspan="2" valign="top">Título de Driver</th>
     <th colspan="2" valign="top">Exception Detection</th>
     <th colspan="2" valign="top">Encapsulate</th>
   </tr>
@@ -307,12 +280,37 @@ A continuación, se detalla la explicación del proceso siguiendo los Stages del
     <td colspan="1" valign="top">Con</td>
   </tr>
   <tr>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top">Ninguno</td>
-    <td colspan="1" valign="top">Ninguno</td>
+    <td colspan="1" valign="top">TS01</td>
+    <td colspan="1" valign="top">Integración con Sistemas de Tiendas por departamento</td>
+    <td colspan="1" valign="top">Permite identificar y abordar problemas de manera temprana en el proceso de integración.</td>
+    <td colspan="1" valign="top">Esto puede consumir recursos, por lo que debes ser cuidadoso en su implementación.</td>
+    <td colspan="1" valign="top">Facilitaría la integración con sistemas de tiendas por departamento al encapsular la lógica específica de la integración en un módulo separado</td>
+    <td colspan="1" valign="top">Podría introducir una pequeña sobrecarga debido a la necesidad de interactuar a través de interfaces</td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">TS02</td>
+    <td colspan="1" valign="top">Limitación de Recursos de Hardware</td>
+    <td colspan="1" valign="top">Ayuda a evitar la ejecución de operaciones costosas o innecesarias cuando los recursos de hardware son limitados.</td>
+    <td colspan="1" valign="top">Puede introducir complejidad adicional en el código, lo que a su vez puede aumentar el consumo de recursos y dificultar el mantenimiento.</td>
+    <td colspan="1" valign="top">Permite que la aplicación sea más flexible en términos de hardware compatible.</td>
+    <td colspan="1" valign="top">Podría afectar la eficiencia en dispositivos con recursos muy limitados.</td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">TS03</td>
+    <td colspan="1" valign="top">Disponibilidad de Conexión a Internet</td>
+    <td colspan="1" valign="top">Permite detectar rápidamente la pérdida de conectividad a Internet y tomar medidas adecuadas.</td>
+    <td colspan="1" valign="top">Existe el riesgo de que se produzcan falsos positivos.</td>
+    <td colspan="1" valign="top">Garantiza que la aplicación mantenga su funcionalidad básica en condiciones de baja conectividad con el uso de caché.</td>
+    <td colspan="1" valign="top">Podría haber un costo de rendimiento asociado debido a la necesidad de comunicarse a través de interfaces y capas adicionales.</td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">TS04</td>
+    <td colspan="1" valign="top">Compatibilidad con Dispositivos Móviles</td>
+    <td colspan="1" valign="top">Los dispositivos móviles pueden operar en una amplia variedad de condiciones, como conexiones de red intermitentes, cambios de estado de la batería y diferentes tamaños de pantalla.</td>
+    <td colspan="1" valign="top">Un uso excesivo de excepciones y registros de errores puede aumentar el consumo de energía del dispositivo móvil, lo que puede afectar la duración de la batería.
+</td>
+    <td colspan="1" valign="top">Facilitaría la adaptación del software a diferentes sistemas operativos (iOS y Android) sin requerir cambios significativos en el código base.</td>
+    <td colspan="1" valign="top">Puede requerir más tiempo y esfuerzo de desarrollo inicial debido a la necesidad de definir adecuadamente las interfaces y abstracciones</td>
   </tr>
 </table>
 
