@@ -14,12 +14,53 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
   </tr>
   <tr>
     <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
-    <td>TB1:</td>
+    <td>
+      <strong>TB1</strong>
+      <br>
+      <p>
+        Cacha: 
+      </p>
+      <p>
+        Castañeda: 
+      </p>
+      <p>
+        Hurtado: 
+      </p>
+      <p>
+        Meneses: Estuvimos en constante coordinación con los compañeros de equipo para cumplir con los objetivos de la entrega y también comunicar los alcances de nuestra solución en las sesiones de clase para recibir retroalimentación al respecto. 
+      </p>
+      <p>
+        Solier: 
+      </p>
+      <p>
+        Vasquez: 
+      </p>
+    </td>
     <td></td>
   </tr>
   <tr>
     <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
-    <td>TB1:</td>
+    <td>
+      <strong>TB1</strong>
+      <p>
+        Cacha: 
+      </p>
+      <p>
+        Castañeda: 
+      </p>
+      <p>
+        Hurtado: 
+      </p>
+      <p>
+        Meneses: Redactamos los alcances de nuestra solución a nivel de análisis problemático y propuesta de solución desde una perspectiva general, que más adelante detallaremos con la implementación.
+      </p>
+      <p>
+        Solier: 
+      </p>
+      <p>
+        Vasquez: 
+      </p>
+    </td>
     <td></td>
   </tr>
 </table>
