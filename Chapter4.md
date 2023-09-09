@@ -81,8 +81,8 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 
 <table>
 <tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 1</th></tr>
-<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">Búsqueda de prendas después de una falla de conexión a Internet</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Fomentar la fidelidad de los clientes al ofrecer un servicio confiable incluso en condiciones de conexión intermitente</td></tr>
 <tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Fiabilidad</td></tr>
 <tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">Búsqueda de prendas después de una falla de conexión a Internet</td></tr>
 <tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
@@ -90,8 +90,8 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 <tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Sistema de probador virtual</td></tr>
 <tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente</td></tr>
 <tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El 95% de las operaciones fueron exitosas durante la falla de conexión</td></tr>
-<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se asegura el sistema de que las operaciones continúen siendo exitosas incluso durante una falla de conexión?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El sistema experimenta un alto porcentaje de operaciones fallidas durante una falla de conexión</td></tr>
 </table>
 
 <table>
