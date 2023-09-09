@@ -12,9 +12,11 @@ El propósito fundamental del proceso de diseño de nuestra solución es abordar
 
 #### Primary Funcionality (Primary User Stories)
 
-| Epic / User Story ID  | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID)  |
-|-----------|-----------|-----------|-----------|-----------|
-| |  | |  |  |
+| Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| -------------------- | ------ | ----------- | ----------------------- | ------------------------- |
+| EP02 | Funcionalidades de probador | Como cliente, quiero contar con las funcionalidades de un probador de prendas para probarme ropa de manera virtual. | - | - |
+| US01 | Realidad aumentada para observar productos | Como cliente, quiero que mediante realidad aumentada pueda observar una representación de un producto, para poder conocerlo de mejor manera. | AC01 DADO que me encuentro en el apartado de realidad aumentada, CUANDO elija el producto a mostrar Y le otorgue permiso al uso de realidad aumentada, ENTONCES la aplicación utilizará la cámara del equipo y mostrará el producto | EP02 |
+| US04 | Generación de orden de compra | Como cliente quiero generar una orden de compra para poder pagar la prenda que he decido que me llevaré. | AC04 DADO que tengo la prenda que me quiero llevar conmigo CUANDO seleccione comprar prenda, ENTONCES se me permitirá realizar el pago de la prenda en la caja o a través de un POS integrado | EP03 |
 
 #### Quality attribute scenarios
 
@@ -22,21 +24,36 @@ En esta sección, presentaremos la especificación inicial de los Quality Attrib
 
 | Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
 |------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |
+| Fiabilidad | Comprador | Búsqueda de prendas después de una falla de conexión a Internet | Aplicación Fitster | Conexión inestable o intermitente | El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente | El 95% de las operaciones fueron exitosas durante la falla de conexión |
+
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
+| Fiabilidad | Comprador | El usuario necesita que el resultado de la prueba de ropa virtual sea de alta precisión y fidelidad | Aplicación Fitster | Vista con AR de prueba de prenda | El sistema y modelo 3D de la prenda se ajusta a la imagen del cliente captada por cámara | La tasa de satisfacción de los clientes que compraron una prenda por cómo les quedaba al probársela virtualmente es superior al 95% |
+
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
+| Usabilidad | Comprador | El usuario visualiza la página de inicio del probador virtual por primera vez | Aplicación Fitster| Pantalla de inicio de la aplicación | El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir | El porcentaje de nuevos usuarios que identifican claramente el próposito del software es de 90% |
+
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
+| Usabilidad | Comprador | El usuario necesita probarse una prenda de manera virtual | Aplicación Fitster | Pantalla de búsqueda de prendas | El usuario puede navegar desde la búsqueda de un prenda hasta el apartado de probador virtual sin complicaciones y de manera eficaz | El tiempo promedio para que un usuario seleccione y se pruebe una prenda es menor a 1 minuto |
+
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
+| Eficiencia de desempeño | Comprador | El usuario necesita probarse una prenda virtualmente de manera rápida | Aplicación Fitster | Vista con AR del cliente con la prenda | El sistema carga el modelo 3D de la prenda y el cliente se visualiza con la prenda | El tiempo promedio de carga de prendas en el probador virtual es menor a 10 segundos |
+
+| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
+|------------|------------|------------|------------|------------|------------|------------|
+| Eficiencia de desempeño | Comprador | El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual | Aplicación Fitster | Tienda con conexión a Internet de alta velocidad | El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento | El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 8 |
 
 #### Constraints
 
-En esta sección se incluye la especificación de las restricciones que provienen tanto del cliente como de las necesidades comerciales, y serán claves para guiar nuestra solución. En la siguiente tabla, presentaremos estas restricciones en forma de "Technical Stories", detallando cada una de ellas en filas.
-
-| Technical Story ID | Título             | Descripción              | Criterios de Aceptación | Relacionado con (Epic ID) |
-|--------------------|---------------------|--------------------------|-------------------------|--------------------------|
-|                    |                     |                          |                         |                          |
-|                    |                     |                          |                         |                          |
-|                    |                     |                          |                         |                          |
-
-Estas restricciones deben ser consideradas al diseñar la arquitectura del sistema para asegurarse de que el sistema sea eficiente, seguro y cumpla con los requisitos y limitaciones establecidos.
+| Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| ------------------ | ------ | ----------- | ----------------------- | ------------------------- |
+| TS01 | Integración con Sistemas de Tiendas por departamento | La integración con los sistemas de tiendas existentes puede estar limitada por la compatibilidad y los recursos disponibles en las tiendas. | DADO que se inicie el proceso de integración con una tienda por departamento, CUANDO se establezca la comunicación y se compartan datos entre el software y la tienda, ENTONCES se debe confirmar que la integración se ha realizado con éxito, lo que se reflejará en la capacidad del software para acceder y utilizar los datos de esa tienda de manera efectiva. | EP03 |
+| TS02 | Limitación de Recursos de Hardware | Las capacidades de hardware disponibles en los probadores convencionales pueden limitar la ejecución de características de realidad aumentada y procesamiento. | DADO que el software se esté ejecutando en el probador virtual con dispositivos de cierta antiguedad, CUANDO se realice una acción que requiera el uso intensivo de recursos ENTONCES el software debe responder de manera eficiente y sin retrasos significativos para proporcionar una experiencia fluida al usuario. | EP02 |
+| TS03 | Disponibilidad de Conexión a Internet | La disponibilidda de una conexión a internet confiable puede ser una limitación en algunos probadores. | DADO que el software esté operando en condiciones de baja conectividad, CUANDO se realice una acción que requiera acceso a datos o recursos en línea, ENTONCES el software debe mantener su funcionalidad y rendimiento de manera óptima, asegurando que los usuarios puedan seguir utilizando las funcionalidades críticas incluso en condiciones de baja conectividad sin interrupciones significativas. | EP01, EP03 |
+| TS04 | Compatibilidad con Dispositivos Móviles | El software de probador virtual debe ser compatible con una variedad de dispositivos móviles para brindar una experiencia óptima. | DADO que se ejecute el software en una variedad de dispositivos móviles, CUANDO el usuario inicie el software en un dispositivo específico, ENTONCES el software debe ser capaz de funcionar de manera compatible y sin problemas en dispositivos que ejecuten sistemas operativos tanto iOS como Android. | EP02 |
 
 ### Architectural Drivers Backlog
 
@@ -63,6 +80,96 @@ A continuación, se detalla la explicación del proceso siguiendo los Stages del
 ### Quality Attribute Scenario Refinements
 
 En la siguiente sección se especifican la relación de escenarios priorizados para atributos de calidad.
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 1</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">Búsqueda de prendas después de una falla de conexión a Internet</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Fomentar la fidelidad de los clientes al ofrecer un servicio confiable incluso en condiciones de conexión intermitente</td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Fiabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">Búsqueda de prendas después de una falla de conexión a Internet</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Conexión inestable o intermitente</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Sistema de probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El 95% de las operaciones fueron exitosas durante la falla de conexión</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se asegura el sistema de que las operaciones continúen siendo exitosas incluso durante una falla de conexión?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El sistema experimenta un alto porcentaje de operaciones fallidas durante una falla de conexión</td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 2</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario reinicia el sistema después de un fallo de hardware</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Minimizar el tiempo de inactividad del sistema después de un reinicio por fallo de hardware para evitar la pérdida de ventas y oportunidades de compra</td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Fiabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario reinicia el sistema después de un fallo de hardware</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Sistema en estado de reinicio por fallo</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Sistema de probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema inicia correctamente y recupera el estado previo, permitiendo al usuario continuar con sus actividades</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El tiempo de inicio es menor a 3 minutos y el porcentaje de éxito en la recuperación es del 99%</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se asegura el sistema de que los usuarios puedan continuar con sus actividades después de un reinicio por fallo de hardware?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El sistema no logra recuperar el estado previo después de un reinicio por fallo de hardware</td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 3</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario visualiza la página de inicio del probador virtual por primera vez</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Garantizar que la página de inicio del probador virtual sea intuitiva y fácil de usar para los nuevos usuarios</td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Usabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario visualiza la página de inicio del probador virtual por primera vez</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Nuevo cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Página de inicio del probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Página principal del probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El porcentaje de nuevos usuarios que identifican claramente el propósito del software es de 90%</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se asegura el sistema de que los nuevos usuarios identifiquen claramente el propósito del software al visualizar la página de inicio por primera vez?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">Situaciones donde el porcentaje de nuevos usuarios que identifican claramente el propósito del software es inferior al 90%</td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 4</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario selecciona una prenda y la visualiza en el probador virtual</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Reducir el tiempo promedio para que un usuario seleccione y visualice una prenda a menos de 2 minutos para una experiencia eficiente</td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Usabilidad</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona una prenda y la visualiza en el probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Vista detallada de la prenda</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Sistema de probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El usuario puede operar y controlar las funciones del probador virtual para visualizar la prenda con facilidad</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El tiempo promedio para que un usuario seleccione y visualice una prenda es menor a 2 minutos</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se asegura el sistema de que los usuarios puedan operar y controlar las funciones del probador virtual de manera efectiva?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El tiempo promedio para que un usuario seleccione y visualice una prenda sea mayor a 2 minutos</td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 5</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario selecciona una prenda para visualizar en el probador virtua</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Asegurar que el tiempo promedio de carga de prendas en el probador virtual sea menor a 2 segundos, lo que contribuye a una experiencia de usuario satisfactoria</td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Eficiencia de desempeño</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona una prenda para visualizar en el probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Tienda con conexión a Internet de alta velocidad</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Vista detallada de la prenda</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema carga y visualiza la prenda en el probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El tiempo promedio de carga de prendas en el probador virtual es menor a 2 segundos</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se garantiza que el tiempo promedio de carga de prendas sea menor a 2 segundos?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El tiempo promedio de carga de prendas en el probador virtual sea mayor a 2 segundos</td></tr>
+</table>
+
+<table>
+<tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 6</th></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Definir un límite máximo de prendas que pueden ser visualizadas simultáneamente en el probador virtual sin experimentar una pérdida de rendimiento</td></tr>
+<tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Eficiencia de desempeño</td></tr>
+<tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual</td></tr>
+<tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
+<tr><td colspan="1" valign="top">Environment:</td><td colspan="1" valign="top">Tienda con conexión a Internet de alta velocidad</td></tr>
+<tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Vista detallada de la prenda</td></tr>
+<tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento</td></tr>
+<tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 10</td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se garantiza que el sistema pueda cargar y visualizar múltiples prendas sin pérdida de rendimiento?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El sistema no pueda cargar y visualizar múltiples prendas sin pérdida de rendimiento, especialmente cuando se supera el límite establecido de 10 prendas</td></tr>
+</table>
 
 ## Strategic-Level Domain-Driven Design
 
