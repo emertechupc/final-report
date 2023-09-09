@@ -12,70 +12,309 @@ El propósito fundamental del proceso de diseño de nuestra solución es abordar
 
 #### Primary Funcionality (Primary User Stories)
 
-| Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-| -------------------- | ------ | ----------- | ----------------------- | ------------------------- |
-| EP02 | Funcionalidades de probador | Como cliente, quiero contar con las funcionalidades de un probador de prendas para probarme ropa de manera virtual. | - | - |
-| US01 | Realidad aumentada para observar productos | Como cliente, quiero que mediante realidad aumentada pueda observar una representación de un producto, para poder conocerlo de mejor manera. | AC01 DADO que me encuentro en el apartado de realidad aumentada, CUANDO elija el producto a mostrar Y le otorgue permiso al uso de realidad aumentada, ENTONCES la aplicación utilizará la cámara del equipo y mostrará el producto | EP02 |
-| US04 | Generación de orden de compra | Como cliente quiero generar una orden de compra para poder pagar la prenda que he decido que me llevaré. | AC04 DADO que tengo la prenda que me quiero llevar conmigo CUANDO seleccione comprar prenda, ENTONCES se me permitirá realizar el pago de la prenda en la caja o a través de un POS integrado | EP03 |
+<table>
+  <tr>
+    <th>Epic / User Story ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Criterios de Aceptación</th>
+    <th>Relacionado con (Epic ID)</th>
+  </tr>
+  <tr>
+    <td>EP02</td>
+    <td>Funcionalidades de probador</td>
+    <td>Como cliente, quiero contar con las funcionalidades de un probador de prendas para probarme ropa de manera virtual.</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Realidad aumentada para observar productos</td>
+    <td>Como cliente, quiero que mediante realidad aumentada pueda observar una representación de un producto, para poder conocerlo de mejor manera.</td>
+    <td>AC01 DADO que me encuentro en el apartado de realidad aumentada, CUANDO elija el producto a mostrar Y le otorgue permiso al uso de realidad aumentada, ENTONCES la aplicación utilizará la cámara del equipo y mostrará el producto</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Generación de orden de compra</td>
+    <td>Como cliente quiero generar una orden de compra para poder pagar la prenda que he decidido que me llevaré.</td>
+    <td>AC04 DADO que tengo la prenda que me quiero llevar conmigo CUANDO seleccione comprar prenda, ENTONCES se me permitirá realizar el pago de la prenda en la caja o a través de un POS integrado</td>
+    <td>EP03</td>
+  </tr>
+</table>
 
 #### Quality attribute scenarios
 
 En esta sección, presentaremos la especificación inicial de los Quality Attribute Scenarios que desempeñarán un papel fundamental en la configuración de la arquitectura de nuestra solución. En la siguiente tabla, detallaremos estos Quality Attribute Scenarios para dar forma a nuestra visión arquitectónica.
 
-| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
-|------------|------------|------------|------------|------------|------------|------------|
-| Fiabilidad | Comprador | Búsqueda de prendas después de una falla de conexión a Internet | Aplicación Fitster | Conexión inestable o intermitente | El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente | El 95% de las operaciones fueron exitosas durante la falla de conexión |
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Fuente</th>
+    <th>Estímulo</th>
+    <th>Artefacto</th>
+    <th>Entorno</th>
+    <th>Respuesta</th>
+    <th>Medida</th>
+  </tr>
+  <tr>
+    <td>Fiabilidad</td>
+    <td>Comprador</td>
+    <td>Búsqueda de prendas después de una falla de conexión a Internet</td>
+    <td>Aplicación Fitster</td>
+    <td>Conexión inestable o intermitente</td>
+    <td>El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente</td>
+    <td>El 95% de las operaciones fueron exitosas durante la falla de conexión</td>
+  </tr>
+</table>
 
-| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
-|------------|------------|------------|------------|------------|------------|------------|
-| Fiabilidad | Comprador | El usuario necesita que el resultado de la prueba de ropa virtual sea de alta precisión y fidelidad | Aplicación Fitster | Vista con AR de prueba de prenda | El sistema y modelo 3D de la prenda se ajusta a la imagen del cliente captada por cámara | La tasa de satisfacción de los clientes que compraron una prenda por cómo les quedaba al probársela virtualmente es superior al 95% |
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Fuente</th>
+    <th>Estímulo</th>
+    <th>Artefacto</th>
+    <th>Entorno</th>
+    <th>Respuesta</th>
+    <th>Medida</th>
+  </tr>
+  <tr>
+    <td>Fiabilidad</td>
+    <td>Comprador</td>
+    <td>El usuario necesita que el resultado de la prueba de ropa virtual sea de alta precisión y fidelidad</td>
+    <td>Aplicación Fitster</td>
+    <td>Vista con AR de prueba de prenda</td>
+    <td>El sistema y modelo 3D de la prenda se ajusta a la imagen del cliente captada por cámara</td>
+    <td>La tasa de satisfacción de los clientes que compraron una prenda por cómo les quedaba al probársela virtualmente es superior al 95%</td>
+  </tr>
+</table>
 
-| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
-|------------|------------|------------|------------|------------|------------|------------|
-| Usabilidad | Comprador | El usuario visualiza la página de inicio del probador virtual por primera vez | Aplicación Fitster| Pantalla de inicio de la aplicación | El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir | El porcentaje de nuevos usuarios que identifican claramente el próposito del software es de 90% |
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Fuente</th>
+    <th>Estímulo</th>
+    <th>Artefacto</th>
+    <th>Entorno</th>
+    <th>Respuesta</th>
+    <th>Medida</th>
+  </tr>
+  <tr>
+    <td>Usabilidad</td>
+    <td>Comprador</td>
+    <td>El usuario visualiza la página de inicio del probador virtual por primera vez</td>
+    <td>Aplicación Fitster</td>
+    <td>Pantalla de inicio de la aplicación</td>
+    <td>El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir</td>
+    <td>El porcentaje de nuevos usuarios que identifican claramente el propósito del software es del 90%</td>
+  </tr>
+</table>
 
-| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
-|------------|------------|------------|------------|------------|------------|------------|
-| Usabilidad | Comprador | El usuario necesita probarse una prenda de manera virtual | Aplicación Fitster | Pantalla de búsqueda de prendas | El usuario puede navegar desde la búsqueda de un prenda hasta el apartado de probador virtual sin complicaciones y de manera eficaz | El tiempo promedio para que un usuario seleccione y se pruebe una prenda es menor a 1 minuto |
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Fuente</th>
+    <th>Estímulo</th>
+    <th>Artefacto</th>
+    <th>Entorno</th>
+    <th>Respuesta</th>
+    <th>Medida</th>
+  </tr>
+  <tr>
+    <td>Usabilidad</td>
+    <td>Comprador</td>
+    <td>El usuario necesita probarse una prenda de manera virtual</td>
+    <td>Aplicación Fitster</td>
+    <td>Pantalla de búsqueda de prendas</td>
+    <td>El usuario puede navegar desde la búsqueda de una prenda hasta el apartado de probador virtual sin complicaciones y de manera eficaz</td>
+    <td>El tiempo promedio para que un usuario seleccione y se pruebe una prenda es menor a 1 minuto</td>
+  </tr>
+</table>
 
-| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
-|------------|------------|------------|------------|------------|------------|------------|
-| Eficiencia de desempeño | Comprador | El usuario necesita probarse una prenda virtualmente de manera rápida | Aplicación Fitster | Vista con AR del cliente con la prenda | El sistema carga el modelo 3D de la prenda y el cliente se visualiza con la prenda | El tiempo promedio de carga de prendas en el probador virtual es menor a 10 segundos |
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Fuente</th>
+    <th>Estímulo</th>
+    <th>Artefacto</th>
+    <th>Entorno</th>
+    <th>Respuesta</th>
+    <th>Medida</th>
+  </tr>
+  <tr>
+    <td>Eficiencia de desempeño</td>
+    <td>Comprador</td>
+    <td>El usuario necesita probarse una prenda virtualmente de manera rápida</td>
+    <td>Aplicación Fitster</td>
+    <td>Vista con AR del cliente con la prenda</td>
+    <td>El sistema carga el modelo 3D de la prenda y el cliente se visualiza con la prenda</td>
+    <td>El tiempo promedio de carga de prendas en el probador virtual es menor a 10 segundos</td>
+  </tr>
+</table>
 
-| Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
-|------------|------------|------------|------------|------------|------------|------------|
-| Eficiencia de desempeño | Comprador | El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual | Aplicación Fitster | Tienda con conexión a Internet de alta velocidad | El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento | El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 8 |
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Fuente</th>
+    <th>Estímulo</th>
+    <th>Artefacto</th>
+    <th>Entorno</th>
+    <th>Respuesta</th>
+    <th>Medida</th>
+  </tr>
+  <tr>
+    <td>Eficiencia de desempeño</td>
+    <td>Comprador</td>
+    <td>El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual</td>
+    <td>Aplicación Fitster</td>
+    <td>Tienda con conexión a Internet de alta velocidad</td>
+    <td>El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento</td>
+    <td>El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 8</td>
+  </tr>
+</table>
 
 #### Constraints
 
-| Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-| ------------------ | ------ | ----------- | ----------------------- | ------------------------- |
-| TS01 | Integración con Sistemas de Tiendas por departamento | La integración con los sistemas de tiendas existentes puede estar limitada por la compatibilidad y los recursos disponibles en las tiendas. | DADO que se inicie el proceso de integración con una tienda por departamento, CUANDO se establezca la comunicación y se compartan datos entre el software y la tienda, ENTONCES se debe confirmar que la integración se ha realizado con éxito, lo que se reflejará en la capacidad del software para acceder y utilizar los datos de esa tienda de manera efectiva. | EP03 |
-| TS02 | Limitación de Recursos de Hardware | Las capacidades de hardware disponibles en los probadores convencionales pueden limitar la ejecución de características de realidad aumentada y procesamiento. | DADO que el software se esté ejecutando en el probador virtual con dispositivos de cierta antiguedad, CUANDO se realice una acción que requiera el uso intensivo de recursos ENTONCES el software debe responder de manera eficiente y sin retrasos significativos para proporcionar una experiencia fluida al usuario. | EP02 |
-| TS03 | Disponibilidad de Conexión a Internet | La disponibilidda de una conexión a internet confiable puede ser una limitación en algunos probadores. | DADO que el software esté operando en condiciones de baja conectividad, CUANDO se realice una acción que requiera acceso a datos o recursos en línea, ENTONCES el software debe mantener su funcionalidad y rendimiento de manera óptima, asegurando que los usuarios puedan seguir utilizando las funcionalidades críticas incluso en condiciones de baja conectividad sin interrupciones significativas. | EP01, EP03 |
-| TS04 | Compatibilidad con Dispositivos Móviles | El software de probador virtual debe ser compatible con una variedad de dispositivos móviles para brindar una experiencia óptima. | DADO que se ejecute el software en una variedad de dispositivos móviles, CUANDO el usuario inicie el software en un dispositivo específico, ENTONCES el software debe ser capaz de funcionar de manera compatible y sin problemas en dispositivos que ejecuten sistemas operativos tanto iOS como Android. | EP02 |
+<table>
+  <tr>
+    <th>Technical Story ID</th>
+    <th>Título</th>
+    <th>Descripción</th>
+    <th>Criterios de Aceptación</th>
+    <th>Relacionado con (Epic ID)</th>
+  </tr>
+  <tr>
+    <td>TS01</td>
+    <td>Integración con Sistemas de Tiendas por departamento</td>
+    <td>La integración con los sistemas de tiendas existentes puede estar limitada por la compatibilidad y los recursos disponibles en las tiendas.</td>
+    <td>DADO que se inicie el proceso de integración con una tienda por departamento, CUANDO se establezca la comunicación y se compartan datos entre el software y la tienda, ENTONCES se debe confirmar que la integración se ha realizado con éxito, lo que se reflejará en la capacidad del software para acceder y utilizar los datos de esa tienda de manera efectiva.</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td>TS02</td>
+    <td>Limitación de Recursos de Hardware</td>
+    <td>Las capacidades de hardware disponibles en los probadores convencionales pueden limitar la ejecución de características de realidad aumentada y procesamiento.</td>
+    <td>DADO que el software se esté ejecutando en el probador virtual con dispositivos de cierta antigüedad, CUANDO se realice una acción que requiera el uso intensivo de recursos ENTONCES el software debe responder de manera eficiente y sin retrasos significativos para proporcionar una experiencia fluida al usuario.</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td>TS03</td>
+    <td>Disponibilidad de Conexión a Internet</td>
+    <td>La disponibilidad de una conexión a internet confiable puede ser una limitación en algunos probadores.</td>
+    <td>DADO que el software esté operando en condiciones de baja conectividad, CUANDO se realice una acción que requiera acceso a datos o recursos en línea, ENTONCES el software debe mantener su funcionalidad y rendimiento de manera óptima, asegurando que los usuarios puedan seguir utilizando las funcionalidades críticas incluso en condiciones de baja conectividad sin interrupciones significativas.</td>
+    <td>EP01, EP03</td>
+  </tr>
+  <tr>
+    <td>TS04</td>
+    <td>Compatibilidad con Dispositivos Móviles</td>
+    <td>El software de probador virtual debe ser compatible con una variedad de dispositivos móviles para brindar una experiencia óptima.</td>
+    <td>DADO que se ejecute el software en una variedad de dispositivos móviles, CUANDO el usuario inicie el software en un dispositivo específico, ENTONCES el software debe ser capaz de funcionar de manera compatible y sin problemas en dispositivos que ejecuten sistemas operativos tanto iOS como Android.</td>
+    <td>EP02</td>
+  </tr>
+</table>
 
 ### Architectural Drivers Backlog
 
 A continuación, se establecen el conjunto de Architectural Drivers como parte del proceso iterativo en el proceso de Quality Attribute Workshop. Se incluyen los Functional Drivers seleccionados, los Quality Attribute Drivers seleccionados y todos los Constraints.
 
-| Driver ID | Título de Driver | Descripción | Importancia para Stakeholders (High, Medium, Low) | Impacto en Architecture Technical Complexity (High, Medium, Low) |
-|-----------|------------------|-------------|-----------------------------------------------|-----------------------------|
-| AD01          | Design Purpose|El objetivo primordial de la propuesta es acelerar los tiempos de ejecución en el sistema, otorgando una alta precisión cuyo resultado sea de alta fidelidad.|Medium|Medium|
-| AD02          | Quality Attributes|Nuestros principales atributos de calidad a ofrecer son **rendimiento**, **fiabilidad** y **usabilidad**.|High|High|
-| AD03          | Primary functionality|La funcionalidad principal que nuestro sistema ofrecerá es el **probarse prendas de vestir a través de realidad aumentada**, logrando acelerar el proceso y tener una precisión muy similar a probarse la prenda físicamente. |High|High|
-| AD04          | Architectural Concerns|Nos preocupa que la aplicación tarde más de lo esperado en mostrar el modelo al usuario. Otra preocupación es no poder asegurar al usuario confiabilidad y alta precisión al probarse sus prendas. Una preocupación adicional es proponer una arquitectura adecuada para soportar todos los procesos, consultas y envío/recepción de información considerados por el sistema, siguiendo la línea de uso de realidad aumentada como tecnología emergente. |Medium|Medium|
-| AD05          | Constraints|El sistema debe poder accederse desde la mayoría de dispositivos móviles gama media/alta con los suficientes recursos para soportar y facilitar la inclusión de realidad aumentada en la vista del usuario. En ese sentido, la aplicación debe ser de fácil uso y acceso para diversos tipos de usuario, resultando intuitiva e interactiva. También, el sistema debe recuperar la información de inventario de productos de la tienda asociada a través del sistema externo existente.   |High|High|
+<table>
+  <tr>
+    <th>Driver ID</th>
+    <th>Título de Driver</th>
+    <th>Descripción</th>
+    <th>Importancia para Stakeholders (High, Medium, Low)</th>
+    <th>Impacto en Architecture Technical Complexity (High, Medium, Low)</th>
+  </tr>
+  <tr>
+    <td>AD01</td>
+    <td>Design Purpose</td>
+    <td>El objetivo primordial de la propuesta es acelerar los tiempos de ejecución en el sistema, otorgando una <strong>alta precisión</strong> cuyo resultado sea de <strong>alta fidelidad</strong>.</td>
+    <td>Medium</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>AD02</td>
+    <td>Quality Attributes</td>
+    <td>Nuestros principales atributos de calidad a ofrecer son <strong>rendimiento</strong>, <strong>fiabilidad</strong> y <strong>usabilidad</strong>.</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>AD03</td>
+    <td>Primary functionality</td>
+    <td>La funcionalidad principal que nuestro sistema ofrecerá es el <strong>probarse prendas de vestir a través de realidad aumentada</strong>, logrando acelerar el proceso y tener una precisión muy similar a probarse la prenda físicamente.</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>AD04</td>
+    <td>Architectural Concerns</td>
+    <td>Nos preocupa que la aplicación tarde más de lo esperado en mostrar el modelo al usuario. Otra preocupación es no poder asegurar al usuario confiabilidad y alta precisión al probarse sus prendas. Una preocupación adicional es proponer una arquitectura adecuada para soportar todos los procesos, consultas y envío/recepción de información considerados por el sistema, siguiendo la línea de uso de realidad aumentada como tecnología emergente.</td>
+    <td>Medium</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>AD05</td>
+    <td>Constraints</td>
+    <td>El sistema debe poder accederse desde la mayoría de dispositivos móviles gama media/alta con los suficientes recursos para soportar y facilitar la inclusión de realidad aumentada en la vista del usuario. En ese sentido, la aplicación debe ser de fácil uso y acceso para diversos tipos de usuario, resultando intuitiva e interactiva. También, el sistema debe recuperar la información de inventario de productos de la tienda asociada a través del sistema externo existente.</td>
+    <td>High</td>
+    <td>High</td>
+  </tr>
+</table>
 
 ### Architectural Design Decisions
 
 A continuación, se detalla la explicación del proceso siguiendo los Stages del Quality Attribute Workshop, resumiendo para cada iteración, cuáles fueron los Drivers considerados, las tácticas y patrones que se evaluaron y los criterios para llegar sus decisiones de diseño.
 
-| Driver ID | Título de Driver | Pattern 1               |
-|-----------|------------------|------------------------|
-|           |                  | Pro          | Con          |
-|           |                  |              |              |
-|           |                  |              |              |
+<table>
+  <tr>
+    <th>Driver ID</th>
+    <th>Description</th>
+    <th>Exception Detection</th>
+    <th>Encapsulate</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Pro</td>
+    <td>Con</td>
+    <td>Pro</td>
+    <td>Con</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Ninguno</td>
+    <td>Ninguno</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="1" rowspan="2" valign="top">Driver ID</th>
+    <th colspan="1" rowspan="2" valign="top">Description</th>
+    <th colspan="2" valign="top">Exception Detection</th>
+    <th colspan="2" valign="top">Encapsulate</th>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Pro</td>
+    <td colspan="1" valign="top">Con</td>
+    <td colspan="1" valign="top">Pro</td>
+    <td colspan="1" valign="top">Con</td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Ninguno</td>
+    <td colspan="1" valign="top">Ninguno</td>
+  </tr>
+</table>
 
 ### Quality Attribute Scenario Refinements
 
