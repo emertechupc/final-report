@@ -111,8 +111,8 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 
 <table>
 <tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 3</th></tr>
-<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario visualiza la página de inicio del probador virtual por primera vez</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Garantizar que la página de inicio del probador virtual sea intuitiva y fácil de usar para los nuevos usuarios</td></tr>
 <tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Usabilidad</td></tr>
 <tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario visualiza la página de inicio del probador virtual por primera vez</td></tr>
 <tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Nuevo cliente final</td></tr>
@@ -120,14 +120,14 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 <tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Página principal del probador virtual</td></tr>
 <tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir</td></tr>
 <tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El porcentaje de nuevos usuarios que identifican claramente el propósito del software es de 90%</td></tr>
-<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se asegura el sistema de que los nuevos usuarios identifiquen claramente el propósito del software al visualizar la página de inicio por primera vez?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">Situaciones donde el porcentaje de nuevos usuarios que identifican claramente el propósito del software es inferior al 90%</td></tr>
 </table>
 
 <table>
 <tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 4</th></tr>
-<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario selecciona una prenda y la visualiza en el probador virtual</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Reducir el tiempo promedio para que un usuario seleccione y visualice una prenda a menos de 2 minutos para una experiencia eficiente</td></tr>
 <tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Usabilidad</td></tr>
 <tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona una prenda y la visualiza en el probador virtual</td></tr>
 <tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
@@ -135,14 +135,14 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 <tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Sistema de probador virtual</td></tr>
 <tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El usuario puede operar y controlar las funciones del probador virtual para visualizar la prenda con facilidad</td></tr>
 <tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El tiempo promedio para que un usuario seleccione y visualice una prenda es menor a 2 minutos</td></tr>
-<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se asegura el sistema de que los usuarios puedan operar y controlar las funciones del probador virtual de manera efectiva?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El tiempo promedio para que un usuario seleccione y visualice una prenda sea mayor a 2 minutos</td></tr>
 </table>
 
 <table>
 <tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 5</th></tr>
-<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario selecciona una prenda para visualizar en el probador virtua</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Asegurar que el tiempo promedio de carga de prendas en el probador virtual sea menor a 2 segundos, lo que contribuye a una experiencia de usuario satisfactoria</td></tr>
 <tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Eficiencia de desempeño</td></tr>
 <tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona una prenda para visualizar en el probador virtual</td></tr>
 <tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
@@ -150,14 +150,14 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 <tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Vista detallada de la prenda</td></tr>
 <tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema carga y visualiza la prenda en el probador virtual</td></tr>
 <tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El tiempo promedio de carga de prendas en el probador virtual es menor a 2 segundos</td></tr>
-<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se garantiza que el tiempo promedio de carga de prendas sea menor a 2 segundos?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El tiempo promedio de carga de prendas en el probador virtual sea mayor a 2 segundos</td></tr>
 </table>
 
 <table>
 <tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 6</th></tr>
-<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top">El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual</td></tr>
+<tr><td colspan="2" valign="top">Business Goals:</td><td colspan="1" valign="top">Definir un límite máximo de prendas que pueden ser visualizadas simultáneamente en el probador virtual sin experimentar una pérdida de rendimiento</td></tr>
 <tr><td colspan="2" valign="top">Relevant Quality Attributes:</td><td colspan="1" valign="top">Eficiencia de desempeño</td></tr>
 <tr><td colspan="1" rowspan="6" valign="top">Scenario Components</td><td colspan="1" valign="top">Stimulus:</td><td colspan="1" valign="top">El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual</td></tr>
 <tr><td colspan="1" valign="top">Stimulus Source:</td><td colspan="1" valign="top">Cliente final</td></tr>
@@ -165,8 +165,8 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 <tr><td colspan="1" valign="top">Artifact (if Known)</td><td colspan="1" valign="top">Vista detallada de la prenda</td></tr>
 <tr><td colspan="1" valign="top">Response:</td><td colspan="1" valign="top">El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento</td></tr>
 <tr><td colspan="1" valign="top">Response Measure:</td><td colspan="1" valign="top">El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 10</td></tr>
-<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
-<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
+<tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top">¿Cómo se garantiza que el sistema pueda cargar y visualizar múltiples prendas sin pérdida de rendimiento?</td></tr>
+<tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top">El sistema no pueda cargar y visualizar múltiples prendas sin pérdida de rendimiento, especialmente cuando se supera el límite establecido de 10 prendas</td></tr>
 </table>
 
 ## Strategic-Level Domain-Driven Design
