@@ -26,27 +26,27 @@ En esta sección, presentaremos la especificación inicial de los Quality Attrib
 
 | Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
 |------------|------------|------------|------------|------------|------------|------------|
-| Fiabilidad | Cliente final | Búsqueda de prendas después de una falla de conexión a Internet | Sistema de probador virtual | Conexión inestable o intermitente | El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente | El 95% de las operaciones fueron exitosas durante la falla de conexión |
+| Fiabilidad | Comprador | Búsqueda de prendas después de una falla de conexión a Internet | Aplicación Fitster | Conexión inestable o intermitente | El sistema continúa operando de manera adecuada, proporcionando funcionalidades esenciales incluso con una conexión intermitente | El 95% de las operaciones fueron exitosas durante la falla de conexión |
 
 | Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
 |------------|------------|------------|------------|------------|------------|------------|
-| Fiabilidad | Cliente final | El usuario reinicia el sistema después de un fallo de hardware |  Sistema de probador virtual  | Sistema en estado de reinicio por fallo | El sistema inicia correctamente y recupera el estado previo, permitiendo al usuario continuar con sus actividades | El tiempo de inicio es menor a 3 minutos y el porcentaje de éxito en la recuperación es del 99% |
+| Fiabilidad | Comprador | El usuario necesita que el resultado de la prueba de ropa virtual sea de alta precisión y fidelidad | Aplicación Fitster | Vista con AR de prueba de prenda | El sistema y modelo 3D de la prenda se ajusta a la imagen del cliente captada por cámara | La tasa de satisfacción de los clientes que compraron una prenda por cómo les quedaba al probársela virtualmente es superior al 95% |
 
 | Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
 |------------|------------|------------|------------|------------|------------|------------|
-| Usabilidad | Nuevo cliente final | El usuario visualiza la página de inicio del probador virtual por primera vez |  Página de inicio del probador virtual  | Página principal del probador virtual | El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir | El porcentaje de nuevos usuarios que identifican claramente el próposito del software es de 90% |
+| Usabilidad | Comprador | El usuario visualiza la página de inicio del probador virtual por primera vez | Aplicación Fitster| Pantalla de inicio de la aplicación | El usuario encuentra información clara y concisa que le indica que el software es un probador virtual de prendas de vestir | El porcentaje de nuevos usuarios que identifican claramente el próposito del software es de 90% |
 
 | Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
 |------------|------------|------------|------------|------------|------------|------------|
-| Usabilidad | Cliente final | El usuario selecciona una prenda y la visualiza en el probador virtual | Vista detallada de la prenda | Sistema de probador virtual | El usuario puede operar y controlar las funciones del probador virtual para visualizar la prenda con facilidad | El tiempo promedio para que un usuario seleccione y visualice una prenda es menor a 2 minutos |
+| Usabilidad | Comprador | El usuario necesita probarse una prenda de manera virtual | Aplicación Fitster | Pantalla de búsqueda de prendas | El usuario puede navegar desde la búsqueda de un prenda hasta el apartado de probador virtual sin complicaciones y de manera eficaz | El tiempo promedio para que un usuario seleccione y se pruebe una prenda es menor a 1 minuto |
 
 | Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
 |------------|------------|------------|------------|------------|------------|------------|
-| Eficiencia de desempeño | Cliente final | El usuario selecciona una prenda para visualizar en el probador virtual | Vista detallada de la prenda | Tienda con conexión a Internet de alta velocidad | El sistema carga y visualiza la prenda en el probador virtual | El tiempo promedio de carga de prendas en el probador virtual es menor a 2 segundos |
+| Eficiencia de desempeño | Comprador | El usuario necesita probarse una prenda virtualmente de manera rápida | Aplicación Fitster | Vista con AR del cliente con la prenda | El sistema carga el modelo 3D de la prenda y el cliente se visualiza con la prenda | El tiempo promedio de carga de prendas en el probador virtual es menor a 10 segundos |
 
 | Atributo   | Fuente     | Estímulo   | Artefacto  | Entorno    | Respuesta  | Medida     |
 |------------|------------|------------|------------|------------|------------|------------|
-| Eficiencia de desempeño | Cliente final | El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual | Vista detallada de la prenda | Tienda con conexión a Internet de alta velocidad | El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento | El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 10 |
+| Eficiencia de desempeño | Comprador | El usuario selecciona múltiples prendas para visualizar y comparar en el probador virtual | Aplicación Fitster | Tienda con conexión a Internet de alta velocidad | El sistema carga y visualiza prendas simultáneamente en el probador virtual sin pérdida de rendimiento | El número máximo de prendas que pueden ser visualizadas simultáneamente sin pérdida de rendimiento es de 8 |
 
 #### Constraints
 
@@ -111,7 +111,6 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 <tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
 </table>
 
-
 <table>
 <tr><th colspan="3" valign="top">Scenario Refinement for Scenario Nº 3</th></tr>
 <tr><td colspan="2" valign="top">Scenario(s):</td><td colspan="1" valign="top"></td></tr>
@@ -171,7 +170,6 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 <tr><td colspan="2" valign="top">Questions:</td><td colspan="1" valign="top"></td></tr>
 <tr><td colspan="2" valign="top">Issues:</td><td colspan="1" valign="top"></td></tr>
 </table>
-
 
 ## Strategic-Level Domain-Driven Design
 
