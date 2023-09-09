@@ -19,19 +19,10 @@ Universidad Peruana de Ciencias Aplicadas
 **Team members:**
 
 - Cacha Panduro, Juben Antony (u201815446)
-- Castañeda Chambi, Kolya Andrei (u2020)
+- Castañeda Chambi, Kolya Andrei (u202010067)
 - Hurtado Gonzales, James Renzo (u202118568)
 - Meneses Torres, Ángel Omar (u202010349)
 - Solier Vargas Jherico Fretd (u201920431)
 - Vasquez Poma, Franco Emmanuel (u201920339)
 
 Semester 2023 - II
-
-## TB1
-
-Initial documentation delivery. In this presentation, we cover the first **four** chapters, which are:
-
-- Chapter I: Introducion
-- Chapter II: Requirements Elicitation & Analysis
-- Chapter III: Requirements Specification
-- Chapter IV: Strategic-Level Software Design
