@@ -56,7 +56,7 @@ La pregunta que buscamos responder es la siguiente: ¿Cómo mejoramos la eficien
 
 ##### Feature Assumptions
 
-- Creemos que nuestros clientes necesitan herramientas con realidad aumentada para facilitar la visualización y selección del producto deseado. Incluso implementando inteligencia artificial para recomendaciones basadas en sus preferencias.
+- Creemos que nuestros clientes necesitan herramientas tecnológicas (como la realidad aumentada) para facilitar la visualización y selección del producto deseado. Incluso implementando inteligencia artificial para recomendaciones basadas en sus preferencias.
 - Estas necesidades se pueden resolver con el desarrollo de un entorno virtual que les permita utilizar esta tecnología que, con lectura código de barras, para generar interacción cliente-producto.
 - El valor N.º 1 que un cliente quiere de mi servicio es el ahorro de tiempo para escoger la prenda de vestir de su preferencia y medida.
 - El cliente puede obtener estos beneficios adicionales como la facilidad de probarse toda la gama de modelos de determinado producto que posea la tienda, de manera virtual, eficiente y rápida.
@@ -80,10 +80,10 @@ La pregunta que buscamos responder es la siguiente: ¿Cómo mejoramos la eficien
 
 Luego de aplicar debidamente el proceso Lean UX, tomando en consideración la visión y misión de nuestra startup, así como los procesos principales del negocio en el que se basa nuestra solución, mostramos el siguiente canvas:
 
-![Lean UX Canvas](/assets/leanux-canvas.png)
+![Lean UX Canvas](/assets/leanux-canvas.jpg)
 
 ## Segmentos objetivo
 
 Nuestro segmento objetivo consiste principalmente de tiendas comerciales, las cuales podrán generar una experiencia interactiva entre las prendas y los compradores, permitiéndoles incrementar sus ventas gracias a una mejor experiencia disponible para sus usuarios.
 
-Asimismo, los usuarios de nuestros usuarios se convierten en nuestros usuarios indirectos, ya que interactuarán con el sistema de Fitster cuando ingresen a un probador de una de las tiendas que haya contratado nuestro producto.
+Asimismo, los clientes de estos comercios se convierten en nuestros usuarios también, ya que interactuarán con el sistema de Fitster cuando deseen utilizar la funcionalidad de probador virtual para comprar prendas en determinada tienda.
