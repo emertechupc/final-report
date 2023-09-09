@@ -33,7 +33,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Solier: 
       </p>
       <p>
-        Vasquez: 
+        Vasquez: Se promovió una comunicación efectiva entre los integrantes del equipo, con el fin de precisar el alcance del proyecto y asegurar la consecución exitosa de las tareas asignadas para este entregable.
       </p>
     </td>
     <td></td>
@@ -58,7 +58,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Solier: 
       </p>
       <p>
-        Vasquez: 
+        Vasquez: En este entregable se logró realizar de manera efectiva la redacción de todos los capítulos, debido a que es importante que todo lo desarrollado sea entendible para un grupo de diversas personas.
       </p>
     </td>
     <td></td>
