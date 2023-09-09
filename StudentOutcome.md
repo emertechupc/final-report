@@ -30,7 +30,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Meneses: Estuvimos en constante coordinación con los compañeros de equipo para cumplir con los objetivos de la entrega y también comunicar los alcances de nuestra solución en las sesiones de clase para recibir retroalimentación al respecto. 
       </p>
       <p>
-        Solier: 
+        Solier: Se promovió la colaboración entre los miembros al asegurarse de que todos tuvieran la oportunidad de expresar sus ideas y perspectivas. Esto contribuyó a un ambiente de trabajo armonioso y a la toma de decisiones basada en consenso, fortaleciendo así la eficacia del equipo en la consecución de los objetivos del proyecto.
       </p>
       <p>
         Vasquez: Se promovió una comunicación efectiva entre los integrantes del equipo, con el fin de precisar el alcance del proyecto y asegurar la consecución exitosa de las tareas asignadas para este entregable.
