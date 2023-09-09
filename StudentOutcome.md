@@ -55,7 +55,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Meneses: Redactamos los alcances de nuestra solución a nivel de análisis problemático y propuesta de solución desde una perspectiva general, que más adelante detallaremos con la implementación.
       </p>
       <p>
-        Solier: 
+        Solier: Se demostró una sólida habilidad para redactar de manera clara y coherente en todos los capítulos del proyecto, asegurando que la documentación sea accesible y comprensible para una audiencia diversa. Su contribución garantizó que el contenido sea fácilmente entendible por un amplio público, lo que es esencial para el éxito y escalabilidad del proyecto.
       </p>
       <p>
         Vasquez: En este entregable se logró realizar de manera efectiva la redacción de todos los capítulos, debido a que es importante que todo lo desarrollado sea entendible para un grupo de diversas personas.
