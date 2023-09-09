@@ -18,7 +18,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <strong>TB1</strong>
       <br>
       <p>
-        Cacha: 
+        Cacha: Se indicaron los puntos a realizar entre los miembros de equipo y se pudo apoyar para completar la entrega y hacer las correciones indicadas.
       </p>
       <p>
         Castañeda: La comunicación fue de suma importancia para intercambiar opiniones con los integrantes del grupo y, de esa manera, obtener resultados significativos.
@@ -48,7 +48,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
     <td>
       <strong>TB1</strong>
       <p>
-        Cacha: 
+        Cacha: Se redactaron las secciones del capítulo cuatro para poder identificar las restricciones y las historias de usuario que contienen la funcionalidad principal de nuestra propuesta.
       </p>
       <p>
         Castañeda: La redacción de estos capítulos fue un punto que se tuvo muy en cuenta, ya que generar documentación idónea para este proyecto permitirá su escalamiento y mantenimiento.
