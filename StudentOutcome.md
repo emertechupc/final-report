@@ -36,7 +36,12 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Vasquez: Se promovió una comunicación efectiva entre los integrantes del equipo, con el fin de precisar el alcance del proyecto y asegurar la consecución exitosa de las tareas asignadas para este entregable.
       </p>
     </td>
-    <td></td>
+    <td>
+      <strong>TB1</strong>
+      <p>
+        Entre miembros de equipo logramos comunicarnos continua y efectivamente, de tal forma pudimos coordinar a tiempo los alcances de la entrega para cumplir con los límites y poder lograr los objetivos trazados para este primer entregable.  
+      </p>
+    </td>
   </tr>
   <tr>
     <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
@@ -61,6 +66,11 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Vasquez: En este entregable se logró realizar de manera efectiva la redacción de todos los capítulos, debido a que es importante que todo lo desarrollado sea entendible para un grupo de diversas personas.
       </p>
     </td>
-    <td></td>
+    <td>
+      <strong>TB1</strong>
+      <p>
+        Logramos redactar las bases de nuestra solución, aplicando correctamente técnicas previamente estudiantes para el análisis de problema, la definición de historias de usuario y el uso de metodologías como DDD y ADD para analizar los enfoques estratégicos de nuestra propuesta. 
+      </p>
+    </td>
   </tr>
 </table>
