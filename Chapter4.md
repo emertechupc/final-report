@@ -15,9 +15,7 @@ El propósito fundamental del proceso de diseño de nuestra solución es abordar
 | Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | -------------------- | ------ | ----------- | ----------------------- | ------------------------- |
 | EP02 | Funcionalidades de probador | Como cliente, quiero contar con las funcionalidades de un probador de prendas para probarme ropa de manera virtual. | - | - |
-| EP03 | Asociación con tiendas | Como dueño de una tienda, quiero asociar mi negocio con el probador virtual para que mis clientes puedan acceder y comprar mis productos desde esta interfaz. | - | - |
 | US01 | Realidad aumentada para observar productos | Como cliente, quiero que mediante realidad aumentada pueda observar una representación de un producto, para poder conocerlo de mejor manera. | AC01 DADO que me encuentro en el apartado de realidad aumentada, CUANDO elija el producto a mostrar Y le otorgue permiso al uso de realidad aumentada, ENTONCES la aplicación utilizará la cámara del equipo y mostrará el producto | EP02 |
-| US03 | Lectura de código QR para inicio de sesión | Como cliente quiero leer el código QR que se encuentra en la pantalla del probador para obtener recomendaciones personalizadas a mis gustos. | AC03: DADO que encuentro el código QR en la pantalla CUANDO abra la aplicación de la tienda y escanee el código, ENTONCES el probador cargará mi perfil de recomendaciones e información personal Y podré obtener recomendaciones personalizadas | EP02 |
 | US04 | Generación de orden de compra | Como cliente quiero generar una orden de compra para poder pagar la prenda que he decido que me llevaré. | AC04 DADO que tengo la prenda que me quiero llevar conmigo CUANDO seleccione comprar prenda, ENTONCES se me permitirá realizar el pago de la prenda en la caja o a través de un POS integrado | EP03 |
 
 #### Quality attribute scenarios
