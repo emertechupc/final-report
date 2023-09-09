@@ -21,7 +21,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Cacha: 
       </p>
       <p>
-        Castañeda: 
+        Castañeda: La comunicación fue de suma importancia para intercambiar opiniones con los integrantes del grupo y, de esa manera, obtener resultados significativos.
       </p>
       <p>
         Hurtado: 
@@ -46,7 +46,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Cacha: 
       </p>
       <p>
-        Castañeda: 
+        Castañeda: La redacción de estos capítulos fue un punto que se tuvo muy en cuenta, ya que generar documentación idónea para este proyecto permitirá su escalamiento y mantenimiento.
       </p>
       <p>
         Hurtado: 
