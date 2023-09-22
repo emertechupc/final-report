@@ -103,4 +103,4 @@ A continuación, mostramos el diagrama de clases representativo del presente *bo
 
 Como mencionamos inicialmente, nos centramos en los *bounded contexts* que son núcleo del negocio, y ambos están centrados en la lógica de búsqueda, selección, probarse virtualmente y compra de artículos de vestir de las tiendas asociadas. Por tanto, definimos el siguiente diagrama de base de datos que evidencia aquellas principales entidades ligadas al dominio y sus relaciones entre sí.
 
-![Code Diagram - Domain](assets/fitster-er.svg "Level 4 - C4 Diagram: Code (Database)")
+![Code Diagram - Domain](assets/fitster-er.png "Level 4 - C4 Diagram: Code (Database)")
