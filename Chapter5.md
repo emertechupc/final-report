@@ -98,3 +98,9 @@ Por otro lado, definimos también este diagrama de tercer nivel para este contex
 A continuación, mostramos el diagrama de clases representativo del presente *bounded context*, en el que evidenciamos la interacción entre los componentes descritos entre las diversas capas identificadas.
 
 ![Code Diagram - Clothing Try On](assets/c4-code-tryon.png "Level 4 - C4 Diagram: Code (Class)")
+
+#### Domain Database Design Diagram
+
+Como mencionamos inicialmente, nos centramos en los *bounded contexts* que son núcleo del negocio, y ambos están centrados en la lógica de búsqueda, selección, probarse virtualmente y compra de artículos de vestir de las tiendas asociadas. Por tanto, definimos el siguiente diagrama de base de datos que evidencia aquellas principales entidades ligadas al dominio y sus relaciones entre sí.
+
+![Code Diagram - Domain](assets/fitster-er.svg "Level 4 - C4 Diagram: Code (Database)")
