@@ -444,6 +444,10 @@ En el paso de Sistemas Externos del Event Storming, nos concentramos en identifi
 
 ![EventStorming](/assets/event-storming-8.jpg)
 
+En el paso de Agregados del Event Storming, nos enfocamos en identificar y definir conjuntos cohesivos de información que representan unidades de significado en nuestra solución. Estos agregados agrupan y organizan datos relevantes que interactúan de manera interdependiente. Esta captura de evidencia resalta los agregados clave que forman la estructura fundamental de nuestra solución. Cada uno representa una entidad con su propio conjunto de datos y reglas de negocio.
+
+![EventStorming](/assets/event-storming-9.jpg)
+
 Luego, en una primera versión de nuestro EventStorming, escribimos en post-its la serie de eventos y comandos que se desencadenan usando nuestra plataforma. En este primer acercamiento planteamos las ideas de arriba hacia abajo, donde los eventos que están en la parte superior desencadenan los que están debajo, y así sucesivamente. Gracias a esta técnica pudimos descubrir la serie de procesos y flujos que abarcaría y seguiría un usuario usando nuestro sistema.
 En adelante, transcribimos esas ideas generales a un tablero en Lucidchart, agrupamos los eventos y comandos definidos, según afinidad, cercanía o relación, en grandes congregados delimitados como bounded contexts. De esta manera, pudimos concretar el proceso de Event Storming satisfactoriamente, obteniendo este diagrama final como resultado:
 
