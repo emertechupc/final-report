@@ -414,9 +414,9 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 
 El equipo colaboró efectivamente para explorar y definir las principales ideas que conforman el proceso de creación del EventStorming. Primero, nos organizamos para recapitular los principales procesos que ocurren dentro de nuestro sistema, es así que fuimos realizando los pasos correspondientes con la herramienta Miro para organizar nuestras ideas sobre cómo funcionarían los flujos de un cliente usando nuestra plataforma:
 
-![EventStorming](/assets/event-storming-1.png)
+![EventStorming](/assets/event-storming-1.jpg)
 
-En esta primera captura de evidencia, podemos visualizar como planteamos una idea preliminar sobre el uso de nuestra solución. Evidenciamos el flujo objetivo que buscamos nuestros usuarios sigan cuando usen nuestro sistema. Por eso, puede verse como las flechas dirigen de izquierda a derecha la serie de pasos generales y externos que se realizan, mientras que la zona delimitada son todos los elementos que rodearían y compondrían nuestra solución IoT.
+En la fase inicial del Event Storming, liberamos nuestra imaginación para concebir ideas sin restricciones. Esta etapa es una hoja en blanco donde las posibilidades son infinitas. En la captura inicial, vemos la semilla de nuestra visión y las ideas relacionadas al dominio empresarial de nuestro producto. Este paso permitió desbloquear el potencial completo de nuestra visión de negocio, guiándonos hacia un territorio de posibilidades ilimitadas.
 
 ![EventStorming](/assets/event-storming-2.png)
 
