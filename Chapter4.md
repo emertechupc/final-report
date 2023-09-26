@@ -412,13 +412,13 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 
 ### EventStorming
 
-El equipo colaboró efectivamente para explorar y definir las principales ideas que conforman el proceso de creación del EventStorming. Primero, nos organizamos para recapitular los principales procesos que ocurren dentro de nuestro sistema, es así que fuimos realizando los pasos correspondientes con la herramienta Miro para organizar nuestras ideas sobre cómo funcionarían los flujos de un cliente usando nuestra plataforma:
+En la fase inicial del Event Storming, liberamos nuestra imaginación para concebir ideas sin restricciones. Esta etapa es una hoja en blanco donde las posibilidades son infinitas. En la captura inicial, vemos la semilla de nuestra visión y las ideas relacionadas al dominio empresarial de nuestro producto. Este paso permitió desbloquear el potencial completo de nuestra visión de negocio, guiándonos hacia un territorio de posibilidades ilimitadas.
 
 ![EventStorming](/assets/event-storming-1.jpg)
 
-En la fase inicial del Event Storming, liberamos nuestra imaginación para concebir ideas sin restricciones. Esta etapa es una hoja en blanco donde las posibilidades son infinitas. En la captura inicial, vemos la semilla de nuestra visión y las ideas relacionadas al dominio empresarial de nuestro producto. Este paso permitió desbloquear el potencial completo de nuestra visión de negocio, guiándonos hacia un territorio de posibilidades ilimitadas.
 
-![EventStorming](/assets/event-storming-2.png)
+
+![EventStorming](/assets/event-storming-2.jpg)
 
 Luego, en una primera versión de nuestro EventStorming, escribimos en post-its la serie de eventos y comandos que se desencadenan usando nuestra plataforma. En este primer acercamiento planteamos las ideas de arriba hacia abajo, donde los eventos que están en la parte superior desencadenan los que están debajo, y así sucesivamente. Gracias a esta técnica pudimos descubrir la serie de procesos y flujos que abarcaría y seguiría un usuario usando nuestro sistema.
 En adelante, transcribimos esas ideas generales a un tablero en Lucidchart, agrupamos los eventos y comandos definidos, según afinidad, cercanía o relación, en grandes congregados delimitados como bounded contexts. De esta manera, pudimos concretar el proceso de Event Storming satisfactoriamente, obteniendo este diagrama final como resultado:
