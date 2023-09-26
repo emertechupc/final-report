@@ -456,7 +456,7 @@ En el paso de Contextos Delimitados del Event Storming, nos centramos en estable
 
 En esta sección, identificamos mediante la técnica de **start-with-value** los contextos candidatos al profundo análisis de su funcionamiento. Esto debido a que representan la lógica principal o modelo de negocio. Estos bounded context son los dos que conforman nuestro sistema. Ambos son lo suficientemente autoexplicativos según los eventos que los componen, además definen de manera precisa cada etapa del proceso que buscamos los clientes sigan al usar nuestro sistema.
 
-![Candidate Context Discovery](/assets/candidate-context-discovery-1.png)
+![Candidate Context Discovery](/assets/candidate-context-discovery-1.jpg)
 
 ![Candidate Context Discovery](/assets/candidate-context-discovery-2.png)
 
