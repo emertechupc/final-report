@@ -432,6 +432,10 @@ En el paso de Comandos del Event Storming, nos centramos en identificar las acci
 
 ![EventStorming](/assets/event-storming-5.jpg)
 
+En el paso de Políticas del Event Storming, nos adentramos en la definición de las directrices y reglas que gobiernan el comportamiento de nuestra solución. Estas políticas actúan como cimientos para asegurar una operación coherente y confiable. Esta captura de evidencia resalta las políticas clave que guiarán la interacción entre el usuario y nuestra solución. Son los principios que garantizan la integridad y seguridad de la experiencia.
+
+![EventStorming](/assets/event-storming-6.jpg)
+
 Luego, en una primera versión de nuestro EventStorming, escribimos en post-its la serie de eventos y comandos que se desencadenan usando nuestra plataforma. En este primer acercamiento planteamos las ideas de arriba hacia abajo, donde los eventos que están en la parte superior desencadenan los que están debajo, y así sucesivamente. Gracias a esta técnica pudimos descubrir la serie de procesos y flujos que abarcaría y seguiría un usuario usando nuestro sistema.
 En adelante, transcribimos esas ideas generales a un tablero en Lucidchart, agrupamos los eventos y comandos definidos, según afinidad, cercanía o relación, en grandes congregados delimitados como bounded contexts. De esta manera, pudimos concretar el proceso de Event Storming satisfactoriamente, obteniendo este diagrama final como resultado:
 
