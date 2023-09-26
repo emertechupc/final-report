@@ -416,7 +416,7 @@ En la fase inicial del Event Storming, liberamos nuestra imaginación para conce
 
 ![EventStorming](/assets/event-storming-1.jpg)
 
-
+En la fase de Timelines del Event Storming, delineamos la secuencia temporal de eventos en nuestra solución. Cada evento se plasma en una línea temporal, revelando la interacción entre los elementos. Esta captura proporciona un mapa cronológico detallado desde el inicio hasta la conclusión de la experiencia del usuario, destacando hitos clave en el proceso. Visualizar los eventos en secuencia ofrece una comprensión profunda de la dinámica, identificando áreas de mejora y posibles cuellos de botella. Esta fase es esencial para asegurar una implementación fluida y eficaz, proporcionando a los usuarios una experiencia cohesiva y sin interrupciones.
 
 ![EventStorming](/assets/event-storming-2.jpg)
 
