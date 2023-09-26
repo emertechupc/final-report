@@ -412,7 +412,7 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 
 ### EventStorming
 
-El equipo colaboró efectivamente para explorar y definir las principales ideas que conforman el proceso de creación del EventStorming. Primero, nos organizamos para recapitular los principales procesos que ocurren dentro de nuestro sistema, es así que fuimos realizando un tablero con la herramienta Jamboard de Google para organizar nuestras ideas a modo de boceto sobre cómo funcionarían los flujos de un cliente usando nuestra plataforma:
+El equipo colaboró efectivamente para explorar y definir las principales ideas que conforman el proceso de creación del EventStorming. Primero, nos organizamos para recapitular los principales procesos que ocurren dentro de nuestro sistema, es así que fuimos realizando los pasos correspondientes con la herramienta Miro para organizar nuestras ideas sobre cómo funcionarían los flujos de un cliente usando nuestra plataforma:
 
 ![EventStorming](/assets/event-storming-1.png)
 
