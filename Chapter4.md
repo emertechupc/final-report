@@ -458,7 +458,7 @@ En esta sección, identificamos mediante la técnica de **start-with-value** los
 
 ![Candidate Context Discovery](/assets/candidate-context-discovery-1.jpg)
 
-![Candidate Context Discovery](/assets/candidate-context-discovery-2.png)
+![Candidate Context Discovery](/assets/candidate-context-discovery-2.jpg)
 
 ### Domain Message Flows Modeling
 
