@@ -436,6 +436,10 @@ En el paso de Políticas del Event Storming, nos adentramos en la definición de
 
 ![EventStorming](/assets/event-storming-6.jpg)
 
+En el paso de Modelos de Lectura del Event Storming, nos enfocamos en definir cómo se presentará y visualizará la información crucial para los usuarios. Estos modelos representan la forma en que la solución entregará datos de manera clara y comprensible. Esta captura de evidencia destaca los modelos de lectura que guiarán la presentación de información en la interacción del usuario con nuestra solución. Son la clave para asegurar que los datos sean accesibles y significativos.
+
+![EventStorming](/assets/event-storming-7.jpg)
+
 Luego, en una primera versión de nuestro EventStorming, escribimos en post-its la serie de eventos y comandos que se desencadenan usando nuestra plataforma. En este primer acercamiento planteamos las ideas de arriba hacia abajo, donde los eventos que están en la parte superior desencadenan los que están debajo, y así sucesivamente. Gracias a esta técnica pudimos descubrir la serie de procesos y flujos que abarcaría y seguiría un usuario usando nuestro sistema.
 En adelante, transcribimos esas ideas generales a un tablero en Lucidchart, agrupamos los eventos y comandos definidos, según afinidad, cercanía o relación, en grandes congregados delimitados como bounded contexts. De esta manera, pudimos concretar el proceso de Event Storming satisfactoriamente, obteniendo este diagrama final como resultado:
 
