@@ -440,6 +440,10 @@ En el paso de Modelos de Lectura del Event Storming, nos enfocamos en definir c�
 
 ![EventStorming](/assets/event-storming-7.jpg)
 
+En el paso de Sistemas Externos del Event Storming, nos concentramos en identificar y comprender cómo nuestra solución interactúa con otros sistemas y entornos externos. Estos sistemas representan componentes clave en el ecosistema más amplio en el que opera nuestra solución. Esta captura de evidencia resalta las conexiones vitales con sistemas externos que influyen en la experiencia del usuario con nuestra solución. Comprender estas interacciones es esencial para garantizar una integración fluida y sin problemas.
+
+![EventStorming](/assets/event-storming-8.jpg)
+
 Luego, en una primera versión de nuestro EventStorming, escribimos en post-its la serie de eventos y comandos que se desencadenan usando nuestra plataforma. En este primer acercamiento planteamos las ideas de arriba hacia abajo, donde los eventos que están en la parte superior desencadenan los que están debajo, y así sucesivamente. Gracias a esta técnica pudimos descubrir la serie de procesos y flujos que abarcaría y seguiría un usuario usando nuestro sistema.
 En adelante, transcribimos esas ideas generales a un tablero en Lucidchart, agrupamos los eventos y comandos definidos, según afinidad, cercanía o relación, en grandes congregados delimitados como bounded contexts. De esta manera, pudimos concretar el proceso de Event Storming satisfactoriamente, obteniendo este diagrama final como resultado:
 
