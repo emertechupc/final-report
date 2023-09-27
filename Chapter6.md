@@ -127,3 +127,7 @@ A continuación, mostramos el diseño preliminar o boceto de nuestro Landing Pag
 - Sección "About us":
 
 ![Landing Page Wireframe de la sección "About us"](assets/lp-wireframe-aboutus.png)
+
+- Sección "Pricing":
+
+![Landing Page Wireframe de la sección "Pricing"](assets/lp-wireframe-pricing.png)
