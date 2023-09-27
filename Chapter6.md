@@ -113,3 +113,13 @@ Proponemos un sistema de navegación que permita al usuario una experiencia intu
 - **Mi cuenta:** Aquí el usuario podrá ver su perfil, guardar sus datos de envío y pago, y ver su historial de compras.
 
 Además, se utilizarán enlaces contextuales en las páginas de detalle de producto para permitir al usuario acceder rápidamente a la sección correspondiente en la barra de navegación. Se utilizará también un botón flotante en la pantalla principal para acceder directamente al probador virtual. Se buscará que la navegación sea clara, fácil de entender y que permita al usuario llegar rápidamente a donde desea.
+
+## Landing Page UI Design
+
+### Landing Page Wireframe
+
+A continuación, mostramos el diseño preliminar o boceto de nuestro Landing Page, el cual consta de 5 secciones principales:
+
+- Pagina principal:
+
+![Landing Page Wireframe de la sección principal](assets/lp-wireframe-main.png)
