@@ -123,3 +123,7 @@ A continuación, mostramos el diseño preliminar o boceto de nuestro Landing Pag
 - Pagina principal:
 
 ![Landing Page Wireframe de la sección principal](assets/lp-wireframe-main.png)
+
+- Sección "About us":
+
+![Landing Page Wireframe de la sección "About us"](assets/lp-wireframe-aboutus.png)
