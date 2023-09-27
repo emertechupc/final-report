@@ -42,3 +42,74 @@ Se diseñará una interfaz que se adapte a todas las resoluciones de pantalla, d
 La interfaz de usuario de nuestras aplicaciones presentan algunos aspectos distintivos debido a las características y finalidad de uso. En general, los dispositivos móviles suelen tener pantallas más pequeñas, resoluciones de pantalla diferentes y una forma diferente de interactuar con el usuario. Por lo tanto, la interfaz de usuario debe estar adaptada a estas limitaciones y características específicas. Adicional a ello, en esta interfaz debe considerarse la simplicidad, porque muchos de los smartphones suelen ser más limitados que un ordenador. Por ello, debe ser simple y fácil de usar. Otra consideración importante es la capacidad de respuesta. También, la interfaz de usuario debe estar diseñada para ser rápida y responder rápidamente a las entradas del usuario.
 
 En resumen, nuestra startup busca ofrecer una experiencia de usuario intuitiva y coherente en todas las plataformas, utilizando los principios del Material Design como base para el diseño de interfaz. Además, se aplicará un diseño responsivo para garantizar una experiencia de usuario coherente en todas las resoluciones de pantalla, y se utilizará el diseño de interfaz nativa para las aplicaciones móviles.
+
+## Information Architecture
+
+### Organization Systems
+
+Nuestra solución de probador virtual tiene diferentes tipos de información que deben organizarse de manera efectiva para una experiencia de usuario fluida. En general, se aplicarán los siguientes sistemas de organización:
+
+- **Organización visual del contenido:** Se utilizará la organización jerárquica para la mayoría de la información presentada al usuario en la interfaz de usuario. Por ejemplo, se utilizará un título grande y destacado para el nombre del producto, seguido de información detallada del producto organizada en secciones. También se utilizará la organización secuencial en algunos casos, por ejemplo, en los pasos para escanear el código de barras del producto y cómo usar la herramienta de realidad aumentada.
+
+- **Esquemas de categorización de contenido:** Se utilizará la categorización de contenido por tópicos para agrupar productos similares, como ropa de mujer, ropa de hombre, calzado, etc. También se utilizará la categorización según audiencia, donde se mostrarán productos específicos para cada género, edad y preferencia de estilo.
+
+En la sección de búsqueda de productos, se utilizará la organización alfabética para que los usuarios puedan encontrar productos rápidamente según el nombre de la marca o el tipo de producto. Además, también se utilizará la organización cronológica en algunas secciones, como en la sección de productos nuevos o en la sección de productos en oferta.
+En conclusión, el sistema de organización visual y de categorización de contenido debe estar diseñado para facilitar la experiencia del usuario y para que pueda acceder a la información que necesita de manera rápida y efectiva. La organización visual y la categorización de contenido deben ser coherentes en toda la interfaz de usuario para una experiencia cohesiva y fácil de usar.
+
+### Labelling Systems
+
+El probador virtual presenta diferentes tipos de información que deben ser etiquetados y presentados de manera efectiva. A continuación, se especifican las etiquetas que se utilizarán para representar los diferentes conjuntos de información:
+
+- **Información del producto:** Se utilizarán etiquetas simples y claras para representar información del producto, como "Nombre del producto", "Precio", "Descripción", "Colores disponibles", "Tallas disponibles" y "Stock disponible".
+
+- **Herramientas de realidad aumentada:** Para las herramientas de realidad aumentada, se utilizarán etiquetas claras y descriptivas, como "Prueba virtual", "Cambia el color", "Mira el producto en 3D", "Muestra diferentes tallas", "Combina con otras prendas" y "Ajusta el tamaño".
+
+- **Búsqueda de productos:** Para la búsqueda de productos, se utilizarán etiquetas claras y concisas para representar diferentes opciones de búsqueda, como "Búsqueda por marca", "Búsqueda por tipo de producto", "Búsqueda por talla" y "Búsqueda por precio".
+
+- **Interfaz del usuario:** Para la interfaz del usuario, se utilizarán etiquetas claras y descriptivas para las diferentes secciones, como "Inicio", "Productos", "Probador virtual", "Búsqueda", "Mi cuenta".
+
+Es importante que las etiquetas sean simples y claras, ya que los usuarios pueden confundirse fácilmente si se utilizan palabras complicadas o poco conocidas. Además, es importante utilizar términos coherentes en toda la interfaz de usuario para que los usuarios puedan comprender fácilmente la información presentada. En resumen, las etiquetas deben ser claras, concisas y coherentes en toda la interfaz de usuario para que los usuarios puedan navegar fácilmente y encontrar la información que necesitan.
+
+### Searching Systems
+
+Para nuestro software de probador virtual, se implementará un sistema de búsqueda que permita a los usuarios buscar productos específicos dentro del catálogo de la tienda. La búsqueda estará disponible tanto en la página de inicio como en la sección de productos. Además, se incluirá un filtro de búsqueda por categorías, que permitirá a los usuarios buscar por tipo de producto (ropa, zapatos, accesorios, etc.) y por género (hombre, mujer, niños).
+Además, se utilizará un algoritmo de búsqueda inteligente que ofrecerá sugerencias de búsqueda a medida que el usuario vaya escribiendo en el campo de búsqueda. Esto ayudará a los usuarios a encontrar rápidamente lo que están buscando y reducirá el tiempo que pasan buscando productos.
+Los resultados de búsqueda se mostrarán en una lista con miniaturas de los productos, nombre, precio y disponibilidad. Adicional a ello, se permitirá al usuario ordenar los resultados por relevancia, precio, popularidad, etc. y se incluirá un botón "ver más detalles" para acceder a información más detallada del producto y poder comprarlo directamente.
+En resumen, se ofrecerá un sistema de búsqueda intuitivo y fácil de usar, que permita a los usuarios encontrar rápidamente los productos que están buscando y reducir el tiempo que pasan navegando por la aplicación.
+
+### SEO Tags and Meta Tags
+
+En nuestra startup, se prestará especial atención a la optimización de motores de búsqueda (SEO) para aumentar la visibilidad del software de probador virtual en línea. Para ello, se utilizarán los siguientes SEO tags y meta tags en las principales páginas de la experiencia:
+Title: El título de la página se utilizará para describir de manera concisa y efectiva el contenido de la página. Por ejemplo, "Software de Probador Virtual - Experiencia de Compra Innovadora" para la página de inicio y "Probador Virtual para Ropa - Herramientas de Realidad Aumentada" para la página del probador virtual.
+
+- **Meta Tags Description:** La etiqueta de descripción se utilizará para proporcionar una breve descripción del contenido de la página. Por ejemplo, "Nuestro software de probador virtual te permite probarte ropa virtualmente antes de comprarla, con herramientas de realidad aumentada y fácil acceso a información de productos".
+
+- **Meta Tags Keywords:** Las palabras clave se utilizarán para identificar los términos relevantes para la página y optimizar la búsqueda en motores de búsqueda. Por ejemplo, "probador virtual", "ropa virtual", "herramientas de realidad aumentada", "compra en línea".
+
+- **Author:** Se utilizará el nombre de nuestra startup como autor en todas las páginas.
+
+Para la aplicación propiamente dicha, se prestará atención a los elementos de optimización de la tienda de aplicaciones (ASO):
+
+- **App Title:** El título de la aplicación se utilizará para describir de manera concisa y efectiva el contenido de la aplicación. Por ejemplo, "Probador Virtual - Prueba tu ropa favorita al instante".
+
+- **App Subtitle:** El subtítulo se utilizará para proporcionar una breve descripción del contenido de la aplicación. Por ejemplo, "Herramientas de Realidad Aumentada para Probar Ropa Virtualmente".
+
+- **App Description:** La descripción de la aplicación se utilizará para proporcionar una descripción más detallada del contenido de la aplicación y las características principales. Por ejemplo, nuestra aplicación de probador virtual te permite probarte ropa virtualmente antes de comprarla, con herramientas de realidad aumentada y fácil acceso a información de productos. Prueba diferentes colores, tallas y modelos de ropa rápidamente".
+
+- **App Keywords:** Se utilizarán palabras clave relevantes para la aplicación, como "probador virtual", "ropa virtual", "herramientas de realidad aumentada", "compra en línea".
+
+En resumen, los SEO tags y meta tags se utilizarán para optimizar la búsqueda en motores de búsqueda y aumentar la visibilidad de nuestro software de probador virtual. En las aplicaciones móviles, se prestará especial atención a los elementos de optimización de la tienda de aplicaciones para aumentar la visibilidad y la descarga de la aplicación.
+
+### Navigation Systems
+
+Proponemos un sistema de navegación que permita al usuario una experiencia intuitiva y fluida a través de la aplicación. Se utilizará una barra de navegación en la parte superior de la pantalla que incluirá las siguientes secciones:
+
+- **Inicio:** Esta sección llevará al usuario a la pantalla principal de la aplicación, donde podrá acceder a todas las funciones y herramientas disponibles.
+
+- **Probador Virtual:** En esta sección, el usuario podrá acceder al probador virtual, donde podrá escanear los códigos de barra de los productos que desee probar y visualizarlos en realidad aumentada, así como obtener información sobre tallas, colores y disponibilidad en stock.
+
+- **Catálogo:** Esta sección permitirá al usuario explorar el catálogo de productos disponible en la tienda, filtrando por categorías y subcategorías, y ver detalles de cada producto.
+
+- **Mi cuenta:** Aquí el usuario podrá ver su perfil, guardar sus datos de envío y pago, y ver su historial de compras.
+
+Además, se utilizarán enlaces contextuales en las páginas de detalle de producto para permitir al usuario acceder rápidamente a la sección correspondiente en la barra de navegación. Se utilizará también un botón flotante en la pantalla principal para acceder directamente al probador virtual. Se buscará que la navegación sea clara, fácil de entender y que permita al usuario llegar rápidamente a donde desea.
