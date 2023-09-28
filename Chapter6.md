@@ -166,7 +166,7 @@ A continuación, mostramos el diseño final como mockup de nuestro Landing Page,
 #### **Application Wireframes**
 Estos son nuestros diseños baja fidelidad para la interfaz de nuestra aplicación, comprende las principales pantallas que el usuario navegará y visualizará al usarla.
 - Web Aplication:
-- 
+
 ![Wireframe Web 1](/assets/wireframe-web-1.png)
 
 ![Wireframe Web 2](/assets/wireframe-web-2.png)
@@ -176,7 +176,7 @@ Estos son nuestros diseños baja fidelidad para la interfaz de nuestra aplicaci�
 Figma: <https://www.figma.com/file/vh8F7DUeBFSmeAGurogW2O/Web-Application-Fitster?type=design&mode=design&t=cAbeWwNa3ptlNLHj-1> 
 
 - Mobile Aplication:
-- 
+
 ![Wireframe Mobile 1](/assets/wireframe-mobile-1.png)
 
 ![Wireframe Mobile 2](/assets/wireframe-mobile-2.png)
