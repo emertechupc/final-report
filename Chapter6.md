@@ -139,3 +139,11 @@ A continuación, mostramos el diseño preliminar o boceto de nuestro Landing Pag
 - Sección "Contact us":
 
 ![Landing Page Wireframe de la sección "Contact us"](/assets/lp-wireframe-contactus.png)
+
+### Landing Page Mock-up
+
+A continuación, mostramos el diseño final como mockup de nuestro Landing Page, el cual consta de 5 secciones principales:
+
+- Pagina principal:
+
+![Landing Page Mock-up de la sección principal](/assets/lp-mockup-main.png)
