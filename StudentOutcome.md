@@ -50,10 +50,10 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Meneses: Nos comunicamos entre los miembros para coordinar la exposición del contenido y alcances logrados para la entrega parcial en un video, dirigido a todo tipo de público con un lenguaje claro. 
       </p>
       <p>
-        Solier: 
+        Solier:  Comunicó de manera efectiva sus propuestas para el diseño de la interfaz de la aplicación web, además de exlicarlo detalladamente durante la exposición del grupo.
       </p>
       <p>
-        Vasquez: 
+        Vasquez: Participó en la coordinación y mejora de la presentación del proyecto para lograr una comunicación precisa y ordenada de las ideas.
       </p>
     </td>
     <td>
@@ -101,10 +101,10 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Meneses: Redactamos todos los objetivos conseguidos para la entrega, documentamos cada paso del diseño de experiencias e interfaces de usuario en nuestro reporte. 
       </p>
       <p>
-        Solier: 
+        Solier: Se plasmaron las ideas de la interfaz en wireframes para tener una mejor idea del diseño y la navegación que obtendrán los usuarios.
       </p>
       <p>
-        Vasquez: 
+        Vasquez: En esta entrega nos centramos en las bases del diseño que planeamos tener en las aplicaciones web y mobile de nuestro proyecto.
       </p>
     </td>
     <td>
