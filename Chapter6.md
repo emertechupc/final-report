@@ -175,7 +175,7 @@ Estos son nuestros diseños baja fidelidad para la interfaz de nuestra aplicaci�
 
 ![Wireframe Web 3](/assets/wireframe-web-3.png)
 
-Figma: <https://www.figma.com/file/vh8F7DUeBFSmeAGurogW2O/Web-Application-Fitster?type=design&mode=design&t=cAbeWwNa3ptlNLHj-1> 
+Puede visualizar los wireframes de la aplicación web en [Figma](https://www.figma.com/file/vh8F7DUeBFSmeAGurogW2O/Web-Application-Fitster?type=design&node-id=0%3A1&mode=design&t=WG4GNzH31fNapV7J-1) 
 
 - Mobile Aplication:
 
@@ -185,7 +185,7 @@ Figma: <https://www.figma.com/file/vh8F7DUeBFSmeAGurogW2O/Web-Application-Fitste
 
 ![Wireframe Mobile 3](/assets/wireframe-mobile-3.png)
 
-Figma: <https://www.figma.com/file/6QvevH6Gi16jXlsEQQInqu/Mobile-Application-Wireframes?type=design&node-id=0%3A1&mode=design&t=cAbeWwNa3ptlNLHj-1> 
+Puede visualizar los wireframes de la aplicación móvil en [Figma](https://www.figma.com/file/6QvevH6Gi16jXlsEQQInqu/Mobile-Application-Wireframes?type=design&node-id=0%3A1&mode=design&t=aEHg7Z233Rjp4I6U-1)
 
 ### Applications Wireflow Diagrams
 
