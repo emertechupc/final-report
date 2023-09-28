@@ -122,20 +122,20 @@ A continuación, mostramos el diseño preliminar o boceto de nuestro Landing Pag
 
 - Pagina principal:
 
-![Landing Page Wireframe de la sección principal](assets/lp-wireframe-main.png)
+![Landing Page Wireframe de la sección principal](/assets/lp-wireframe-main.png)
 
 - Sección "About us":
 
-![Landing Page Wireframe de la sección "About us"](assets/lp-wireframe-aboutus.png)
+![Landing Page Wireframe de la sección "About us"](/assets/lp-wireframe-aboutus.png)
 
 - Sección "Pricing":
 
-![Landing Page Wireframe de la sección "Pricing"](assets/lp-wireframe-pricing.png)
+![Landing Page Wireframe de la sección "Pricing"](/assets/lp-wireframe-pricing.png)
 
 - Sección "Partners":
 
-![Landing Page Wireframe de la sección "Partners"](assets/lp-wireframe-partners.png)
+![Landing Page Wireframe de la sección "Partners"](/assets/lp-wireframe-partners.png)
 
 - Sección "Contact us":
 
-![Landing Page Wireframe de la sección "Contact us"](assets/lp-wireframe-contactus.png)
+![Landing Page Wireframe de la sección "Contact us"](/assets/lp-wireframe-contactus.png)
