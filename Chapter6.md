@@ -193,32 +193,37 @@ En la presente sección, mostraremos los principales flujos de uso de nuestra ap
 
 #### Web Application
 
-- Wireflow 1
+- En este primer diagrama, vemos el flujo correcto que seguiría un usuario que usa la aplicación web: empezando por la pantalla del login, donde inicia sesión colocando sus respectivas credenciales. Luego, en la pagina de inicio, selecciona el item del inventario del cual desea visualizar su información. Finalmente, en la nueva vista podrá visualizar la información detallada del item.
 
 ![Wireflow Web 1](/assets/web-wireflow-1.png)
 
-- Wireflow 2
-
-![Wireflow Web 2](/assets/web-wireflow-2.png)
-
-- Wireflow 3
+- En este segundo diagrama, vemos el flujo correcto que seguiría un usuario para la edición de algún item en específico: empezando por la pantalla del login, donde inicia sesión colocando sus respectivas credenciales. Luego, en la pagina de inicio, selecciona la opción de editar el item del inventario. Finalmente, en la nueva vista podrá realizar ediciones de la información del item correspondiente.
 
 ![Wireflow Web 3](/assets/web-wireflow-3.png)
 
-- Wireflow 4
+- En este tercer diagrama, vemos un flujo similar al anterior y seguiría un usuario para la creación de un nuevo item: empezando por la pantalla del login, donde inicia sesión colocando sus respectivas credenciales. Luego, en la pagina de inicio, selecciona la opción de añadir un nuevo item. Finalmente, en la nueva vista podrá realizar la creación de un nuevo item completando la información correctamente.
+
+![Wireflow Web 2](/assets/web-wireflow-2.png)
+
+- En este cuarto diagrama, vemos un flujo que seguiría un usuario para eliminar algun item del inventario: empezando por la pantalla del login, donde inicia sesión colocando sus respectivas credenciales. Luego, en la pagina de inicio, selecciona la opción de eliminar en el iconon correspondiente de algun item. Finalmente, se mostrará un dialog de confirmación para asegurar si esta seguro de realizar la respectiva acción.
 
 ![Wireflow Web 4](/assets/web-wireflow-4.png)
 
+
+Para tener una mejor visualización de los Wireflows puede ingresar a [Figma](https://www.figma.com/file/AeI5sO9ZW4xkjZuwZXlEYt/Web-Application-Wireflows?type=whiteboard&node-id=0%3A1&t=wFWkcMlqI70mxTeL-1)
+
 #### Mobile Application
 
-- Wireflow 1
+- En este primer diagrama, vemos el flujo correcto que seguiría un nuevo usuario que usa la aplicación móvil: empezando por la pantalla de registro, donde completa su información correctamente. Luego, en la vista del login incia sesión con sus respectivos datos, y selecciona el botón de iniciar sesión y se mostrará la vista principal de la aplicación móvil, donde el usuario buscará alguna prenda por la barra de búsqueda. Luego, selecciona el la prenda por la cual se interesa y podrá visualizar su información detallada. Finalmente, luego de seleccionar el botón "Try on" se abrirá la cámara del móvil donde podrá probarse la prenda virtualemente.
   
 ![Wireflow mobile 1](/assets/mobile-wireflow-1.png)
 
-- Wireflow 2
+- En este segundo diagrama, vemos un flujo, similar al anterior, que seguiría un nuevo usuario que usa la aplicación móvil: empezando por la pantalla de registro, donde completa su información correctamente. Luego, en la vista del login incia sesión con sus respectivos datos, y selecciona el botón de iniciar sesión y se mostrará la vista principal de la aplicación móvil, donde el usuario buscará alguna prenda haciendo uso de los filtros disponibles. Luego, selecciona el la prenda por la cual se interesa y podrá visualizar su información detallada. Finalmente, luego de seleccionar el botón "Try on" se abrirá la cámara del móvil donde podrá probarse la prenda virtualemente.
   
 ![Wireflow mobile 2](/assets/mobile-wireflow-2.png)
 
-- Wireflow 3
+- En este tercer diagrama, vemos un flujo que seguiría un usuario que usa la aplicación móvil: luego de que el usuario haya realizado la busqueda correspondiente y haberse probado la prenda virtualmente, selecciona la opcion de añadir el producto al carrito de compras. Luego, en la vista del carrito de compras podrá visualizar y verificar todos los productos que contiene. Luego, selecciona el botón "Go to pay" que lo enviará a la vista donde tendrá que llenar la información correspendiente para completar el pago. Luego, podrá seleccionar la tarjeta con la que desea realizar el pago.Finalmente, se mostrará la vista de pago exitoso, y luego de seleccionar el botón "Continue" podrá visualizar el detalle de la compra realizada.
 
 ![Wireflow mobile 3](/assets/mobile-wireflow-3.png)
+
+Para tener una mejor visualización de los Wireflows puede ingresar a [Figma](https://www.figma.com/file/Mudcii5NSaXlV7cjkfrj0o/Mobile-Wireflow-Diagrams?type=whiteboard&node-id=0%3A1&t=ECCn0SGwfyPTf1mH-1)
