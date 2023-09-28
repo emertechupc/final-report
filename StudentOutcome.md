@@ -62,6 +62,9 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Entre miembros de equipo logramos comunicarnos continua y efectivamente, de tal forma pudimos coordinar a tiempo los alcances de la entrega para cumplir con los límites y poder lograr los objetivos trazados para este primer entregable.  
       </p>
        <strong>TP</strong>
+      <p>
+        Pudimos comunicar los alcances hasta la entrega parcial a través de un video de exposición apto para todo tipo de audiencias. 
+      </p>
     </td>
   </tr>
   <tr>
@@ -113,6 +116,9 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Logramos redactar las bases de nuestra solución, aplicando correctamente técnicas previamente estudiantes para el análisis de problema, la definición de historias de usuario y el uso de metodologías como DDD y ADD para analizar los enfoques estratégicos de nuestra propuesta. 
       </p>
       <strong>TP</strong>
+      <p>
+        Redactamos y explicamos todos los entregables y elementos desarrollados para la entrega parcial. De tal manera que el contenido puede ser revisado y entendido por el público general y las ideas expuestas están en un repositorio de libre acceso.
+      </p>
     </td>
   </tr>
 </table>
