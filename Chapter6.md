@@ -157,3 +157,7 @@ A continuación, mostramos el diseño final como mockup de nuestro Landing Page,
 - Sección "Partners":
 
 ![Landing Page Mock-up de la sección "Partners"](/assets/lp-mockup-partners.png)
+
+- Sección "Contact us":
+
+![Landing Page Mock-up de la sección "Contact us"](/assets/lp-mockup-contactus.png)
