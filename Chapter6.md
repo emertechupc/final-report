@@ -135,3 +135,7 @@ A continuación, mostramos el diseño preliminar o boceto de nuestro Landing Pag
 - Sección "Partners":
 
 ![Landing Page Wireframe de la sección "Partners"](assets/lp-wireframe-partners.png)
+
+- Sección "Contact us":
+
+![Landing Page Wireframe de la sección "Contact us"](assets/lp-wireframe-contactus.png)
