@@ -147,3 +147,9 @@ A continuación, mostramos el diseño final como mockup de nuestro Landing Page,
 - Pagina principal:
 
 ![Landing Page Mock-up de la sección principal](/assets/lp-mockup-main.png)
+
+- Sección "About us":
+
+- Sección "Pricing":
+
+![Landing Page Mock-up de la sección "Pricing"](/assets/lp-mockup-pricing.png)
