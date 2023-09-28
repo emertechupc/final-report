@@ -44,7 +44,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Castañeda: 
       </p>
       <p>
-        Hurtado: 
+        Hurtado: Se realizaron reuniones breves después de clase para dividir las tareas asignadas para este entregable y constante comunicación para evaluar el progreso del trabajo realizado.
       </p>
       <p>
         Meneses: Nos comunicamos entre los miembros para coordinar la exposición del contenido y alcances logrados para la entrega parcial en un video, dirigido a todo tipo de público con un lenguaje claro. 
@@ -95,7 +95,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Castañeda: 
       </p>
       <p>
-        Hurtado: 
+        Hurtado: Para este entregable fue vital analizar las necesidades del usuario final para poder implementar dichas ideas a la sección de UX/UI.
       </p>
       <p>
         Meneses: Redactamos todos los objetivos conseguidos para la entrega, documentamos cada paso del diseño de experiencias e interfaces de usuario en nuestro reporte. 
