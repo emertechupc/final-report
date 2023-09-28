@@ -35,12 +35,33 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <p>
         Vasquez: Se promovió una comunicación efectiva entre los integrantes del equipo, con el fin de precisar el alcance del proyecto y asegurar la consecución exitosa de las tareas asignadas para este entregable.
       </p>
+      <strong>TB2</strong>
+      <br>
+      <p>
+        Cacha: 
+      </p>
+      <p>
+        Castañeda: 
+      </p>
+      <p>
+        Hurtado: 
+      </p>
+      <p>
+        Meneses: Nos comunicamos entre los miembros para coordinar la exposición del contenido y alcances logrados para la entrega parcial en un video, dirigido a todo tipo de público con un lenguaje claro. 
+      </p>
+      <p>
+        Solier: 
+      </p>
+      <p>
+        Vasquez: 
+      </p>
     </td>
     <td>
       <strong>TB1</strong>
       <p>
         Entre miembros de equipo logramos comunicarnos continua y efectivamente, de tal forma pudimos coordinar a tiempo los alcances de la entrega para cumplir con los límites y poder lograr los objetivos trazados para este primer entregable.  
       </p>
+       <strong>TB2</strong>
     </td>
   </tr>
   <tr>
@@ -65,12 +86,33 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <p>
         Vasquez: En este entregable se logró realizar de manera efectiva la redacción de todos los capítulos, debido a que es importante que todo lo desarrollado sea entendible para un grupo de diversas personas.
       </p>
+      <strong>TB2</strong>
+      <br>
+      <p>
+        Cacha: 
+      </p>
+      <p>
+        Castañeda: 
+      </p>
+      <p>
+        Hurtado: 
+      </p>
+      <p>
+        Meneses: Redactamos todos los objetivos conseguidos para la entrega, documentamos cada paso del diseño de experiencias e interfaces de usuario en nuestro reporte. 
+      </p>
+      <p>
+        Solier: 
+      </p>
+      <p>
+        Vasquez: 
+      </p>
     </td>
     <td>
       <strong>TB1</strong>
       <p>
         Logramos redactar las bases de nuestra solución, aplicando correctamente técnicas previamente estudiantes para el análisis de problema, la definición de historias de usuario y el uso de metodologías como DDD y ADD para analizar los enfoques estratégicos de nuestra propuesta. 
       </p>
+      <strong>TB2</strong>
     </td>
   </tr>
 </table>
