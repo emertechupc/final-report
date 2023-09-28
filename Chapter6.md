@@ -150,6 +150,8 @@ A continuación, mostramos el diseño final como mockup de nuestro Landing Page,
 
 - Sección "About us":
 
+![Landing Page Mock-up de la sección principal](/assets/lp-mockup-aboutus.png)
+
 - Sección "Pricing":
 
 ![Landing Page Mock-up de la sección "Pricing"](/assets/lp-mockup-pricing.png)
@@ -184,3 +186,37 @@ Figma: <https://www.figma.com/file/vh8F7DUeBFSmeAGurogW2O/Web-Application-Fitste
 ![Wireframe Mobile 3](/assets/wireframe-mobile-3.png)
 
 Figma: <https://www.figma.com/file/6QvevH6Gi16jXlsEQQInqu/Mobile-Application-Wireframes?type=design&node-id=0%3A1&mode=design&t=cAbeWwNa3ptlNLHj-1> 
+
+### Applications Wireflow Diagrams
+
+#### Web Application
+
+- Wireflow 1
+
+![Wireflow Web 1](/assets/web-wireflow-1.png)
+
+- Wireflow 2
+
+![Wireflow Web 2](/assets/web-wireflow-2.png)
+
+- Wireflow 3
+
+![Wireflow Web 3](/assets/web-wireflow-3.png)
+
+- Wireflow 4
+
+![Wireflow Web 4](/assets/web-wireflow-4.png)
+
+#### Mobile Application
+
+- Wireflow 1
+  
+![Wireflow mobile 1](/assets/mobile-wireflow-1.png)
+
+- Wireflow 2
+  
+![Wireflow mobile 2](/assets/mobile-wireflow-2.png)
+
+- Wireflow 3
+
+![Wireflow mobile 3](/assets/mobile-wireflow-3.png)
