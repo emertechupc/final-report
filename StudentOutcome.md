@@ -41,7 +41,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Cacha: 
       </p>
       <p>
-        Castañeda: 
+        Castañeda: Las presentaciones orales de esta entrega procuraron contener un lenguaje fácil de entender para cualquier usuario.
       </p>
       <p>
         Hurtado: Se realizaron reuniones breves después de clase para dividir las tareas asignadas para este entregable y constante comunicación para evaluar el progreso del trabajo realizado.
@@ -92,7 +92,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Cacha: 
       </p>
       <p>
-        Castañeda: 
+        Castañeda: La comunicación escrita para esta entrega fue de suma importancia, ya que había mucho por mejorar en lo redactado.
       </p>
       <p>
         Hurtado: Para este entregable fue vital analizar las necesidades del usuario final para poder implementar dichas ideas a la sección de UX/UI.
