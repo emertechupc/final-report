@@ -189,6 +189,8 @@ Figma: <https://www.figma.com/file/6QvevH6Gi16jXlsEQQInqu/Mobile-Application-Wir
 
 ### Applications Wireflow Diagrams
 
+En la presente sección, mostraremos los principales flujos de uso de nuestra aplicación web y móvil, conocidos también como ***happy paths***. Estos evidencian el correcto uso del sistema a través del cumplimiento de una funcionalidad particular establecida.
+
 #### Web Application
 
 - Wireflow 1
