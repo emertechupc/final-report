@@ -35,11 +35,35 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <p>
         Vasquez: Se promovió una comunicación efectiva entre los integrantes del equipo, con el fin de precisar el alcance del proyecto y asegurar la consecución exitosa de las tareas asignadas para este entregable.
       </p>
+      <strong>TP</strong>
+      <br>
+      <p>
+        Cacha: Se coordinaron los cambios para la entrega mediante reuniones con todos los integrantes para poder cumplir con todos los puntos.
+      </p>
+      <p>
+        Castañeda: Las presentaciones orales de esta entrega procuraron contener un lenguaje fácil de entender para cualquier usuario.
+      </p>
+      <p>
+        Hurtado: Se realizaron reuniones breves después de clase para dividir las tareas asignadas para este entregable y constante comunicación para evaluar el progreso del trabajo realizado.
+      </p>
+      <p>
+        Meneses: Nos comunicamos entre los miembros para coordinar la exposición del contenido y alcances logrados para la entrega parcial en un video, dirigido a todo tipo de público con un lenguaje claro. 
+      </p>
+      <p>
+        Solier:  Comunicó de manera efectiva sus propuestas para el diseño de la interfaz de la aplicación web, además de exlicarlo detalladamente durante la exposición del grupo.
+      </p>
+      <p>
+        Vasquez: Participó en la coordinación y mejora de la presentación del proyecto para lograr una comunicación precisa y ordenada de las ideas.
+      </p>
     </td>
     <td>
       <strong>TB1</strong>
       <p>
         Entre miembros de equipo logramos comunicarnos continua y efectivamente, de tal forma pudimos coordinar a tiempo los alcances de la entrega para cumplir con los límites y poder lograr los objetivos trazados para este primer entregable.  
+      </p>
+       <strong>TP</strong>
+      <p>
+        Pudimos comunicar los alcances hasta la entrega parcial a través de un video de exposición apto para todo tipo de audiencias. 
       </p>
     </td>
   </tr>
@@ -65,11 +89,35 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <p>
         Vasquez: En este entregable se logró realizar de manera efectiva la redacción de todos los capítulos, debido a que es importante que todo lo desarrollado sea entendible para un grupo de diversas personas.
       </p>
+      <strong>TP</strong>
+      <br>
+      <p>
+        Cacha: Se realizaron las correciones indicadas y se mejoraron varias secciones del trabajo relacionadas a la aplicacion web y movil.
+      </p>
+      <p>
+        Castañeda: La comunicación escrita para esta entrega fue de suma importancia, ya que había mucho por mejorar en lo redactado.
+      </p>
+      <p>
+        Hurtado: Para este entregable fue vital analizar las necesidades del usuario final para poder implementar dichas ideas a la sección de UX/UI.
+      </p>
+      <p>
+        Meneses: Redactamos todos los objetivos conseguidos para la entrega, documentamos cada paso del diseño de experiencias e interfaces de usuario en nuestro reporte. 
+      </p>
+      <p>
+        Solier: Se plasmaron las ideas de la interfaz en wireframes para tener una mejor idea del diseño y la navegación que obtendrán los usuarios.
+      </p>
+      <p>
+        Vasquez: En esta entrega nos centramos en las bases del diseño que planeamos tener en las aplicaciones web y mobile de nuestro proyecto.
+      </p>
     </td>
     <td>
       <strong>TB1</strong>
       <p>
         Logramos redactar las bases de nuestra solución, aplicando correctamente técnicas previamente estudiantes para el análisis de problema, la definición de historias de usuario y el uso de metodologías como DDD y ADD para analizar los enfoques estratégicos de nuestra propuesta. 
+      </p>
+      <strong>TP</strong>
+      <p>
+        Redactamos y explicamos todos los entregables y elementos desarrollados para la entrega parcial. De tal manera que el contenido puede ser revisado y entendido por el público general y las ideas expuestas están en un repositorio de libre acceso.
       </p>
     </td>
   </tr>
