@@ -38,7 +38,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <strong>TP</strong>
       <br>
       <p>
-        Cacha: 
+        Cacha: Se coordinaron los cambios para la entrega mediante reuniones con todos los integrantes para poder cumplir con todos los puntos.
       </p>
       <p>
         Castañeda: Las presentaciones orales de esta entrega procuraron contener un lenguaje fácil de entender para cualquier usuario.
@@ -92,7 +92,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <strong>TP</strong>
       <br>
       <p>
-        Cacha: 
+        Cacha: Se realizaron las correciones indicadas y se mejoraron varias secciones del trabajo relacionadas a la aplicacion web y movil.
       </p>
       <p>
         Castañeda: La comunicación escrita para esta entrega fue de suma importancia, ya que había mucho por mejorar en lo redactado.
