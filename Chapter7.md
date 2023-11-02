@@ -35,6 +35,10 @@ Con respecto a la creación de ramas, se utilizarán feature branches siguiendo 
 
 ### Software Deployment Configuration
 
+Para el Landing page se utilizó GitHub Pages para el despliegue inmediato de dicha página.
+Para la aplicación web Fitster Inventory, el despliegue se hará en Vercel.
+Para nuestra RESTful API utilizaremos Azure Web App Service.
+
 ## Solution Implementation
 
 ### Sprint 1
