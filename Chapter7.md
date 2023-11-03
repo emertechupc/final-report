@@ -347,6 +347,219 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
 
 #### Development Evidence for Sprint
 
+En esta sección, evidenciamos los principales a manera de commits en los respectivos repositorios de desarrollo de nuestra solución. Evidentemente, todo el proceso completo de desarrollo puede visualizarse en los repositorios previamente referenciados.
+
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit id</th>
+    <th>Commit message</th>
+    <th>Commit message body</th>
+    <th>Committed on</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2">fitster_inventory</td>
+    <td rowspan="2">feat/jherico</td>
+    <td>b197305</td>
+    <td>feat</td>
+    <td>frontend first base version</td>
+    <td>20/10/2023</td>
+  </tr>
+  <tr>
+    <td>7f18ef4</td>
+    <td>fix</td>
+    <td>change home and add product card</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td rowspan="10">fitster_app</td>
+    <td rowspan="10">develop</td>
+    <td>9541e3a</td>
+    <td>feat</td>
+    <td>add navigation bar</td>
+    <td>20/10/2023</td>
+  </tr>
+  <tr>
+    <td>f1f734d</td>
+    <td>feat</td>
+    <td>implementation of settings view</td>
+    <td>20/10/2023</td>
+  </tr>
+  <tr>
+    <td>f940ccf</td>
+    <td>feat</td>
+    <td>implementation of dark mode</td>
+    <td>20/10/2023</td>
+  </tr>
+  <tr>
+    <td>85c5325</td>
+    <td>feat</td>
+    <td>add icon button in appbar</td>
+    <td>23/10/2023</td>
+  </tr>
+  <tr>
+    <td>79405a3</td>
+    <td>feat</td>
+    <td>redesign home page &amp; provider implementation</td>
+    <td>23/10/2023</td>
+  </tr>
+  <tr>
+    <td>7d69f82</td>
+    <td>feat</td>
+    <td>configure navigation</td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>3fa27e1</td>
+    <td>feat</td>
+    <td>sign up view implementation</td>
+    <td>26/10/2023</td>
+  </tr>
+  <tr>
+    <td>603b542</td>
+    <td>feat</td>
+    <td>welcome view implementation</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>02189a8</td>
+    <td>feat</td>
+    <td>order view implementation</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>ddf9e83</td>
+    <td>feat</td>
+    <td>shopping cart view implementation</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td rowspan="19">fitster_backend</td>
+    <td rowspan="9">feat/product-detail-v1</td>
+    <td>d99a12a</td>
+    <td>feat(products)</td>
+    <td>add products domain model</td>
+    <td>21/10/2023</td>
+  </tr>
+  <tr>
+    <td>bfdce1f</td>
+    <td>feat(products)</td>
+    <td>add category domain model</td>
+    <td>21/10/2023</td>
+  </tr>
+  <tr>
+    <td>11ab3a3</td>
+    <td>feat(products)</td>
+    <td>add type domain model</td>
+    <td>21/10/2023</td>
+  </tr>
+  <tr>
+    <td>feab390</td>
+    <td>feat(products)</td>
+    <td>add DAPO for incoming and outgoing resources</td>
+    <td>21/10/2023</td>
+  </tr>
+  <tr>
+    <td>60cde34</td>
+    <td>chore</td>
+    <td>implement base repository and unit of work</td>
+    <td>22/10/2023</td>
+  </tr>
+  <tr>
+    <td>59274a0</td>
+    <td>feat(products)</td>
+    <td>implement service layer for products</td>
+    <td>22/10/2023</td>
+  </tr>
+  <tr>
+    <td>c10263d</td>
+    <td>chore(security)</td>
+    <td>add JWT validation and error middleware</td>
+    <td>22/10/2023</td>
+  </tr>
+  <tr>
+    <td>2cac718</td>
+    <td>feat(users)</td>
+    <td>implement services layer for users</td>
+    <td>23/10/2023</td>
+  </tr>
+  <tr>
+    <td>ee7c4ce</td>
+    <td>feat</td>
+    <td>implement service layer for product detail</td>
+    <td>24/10/2023</td>
+  </tr>
+  <tr>
+    <td rowspan="3">feat/shopping-cart</td>
+    <td>f10dfd5</td>
+    <td>feat</td>
+    <td>add models for shopping domain</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>a7caa22</td>
+    <td>feat</td>
+    <td>implement service layer for shopping cart and items</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>40cb10e</td>
+    <td>feat</td>
+    <td>implement controller layer for shopping cart and items</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td rowspan="3">feat/orders</td>
+    <td>ef31c08</td>
+    <td>feat</td>
+    <td>add order and order items models</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>a3f0e5e</td>
+    <td>feat</td>
+    <td>implement methods in service layer</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>80b0899</td>
+    <td>feat</td>
+    <td>implement controller layer for orders</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td rowspan="3">feat/wishlist</td>
+    <td>030f755</td>
+    <td>feat</td>
+    <td>add wishlist and item models</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>c3e7612</td>
+    <td>feat</td>
+    <td>implement service layer for wishlists</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>b791e5c</td>
+    <td>feat</td>
+    <td>implement controller for wishlist item</td>
+    <td>27/10/2023</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td></td>
+    <td>feat</td>
+    <td>add deployment config</td>
+    <td>27/10/2023</td>
+  </tr>
+</tbody>
+</table>
+
 #### Testing Suite Evidence for Sprint Review
 
 #### Execution Evidence for Sprint Review
