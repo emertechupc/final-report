@@ -110,6 +110,249 @@ La presenta tabla resume el planeamiento de nuestra primera iteración
 
 #### Sprint Backlog 1
 
+A continuación, visualizamos las historias de usuario a desarrollar en esta iteración, así como su descomposición por tareas.
+
+<table>
+<thead>
+  <tr>
+    <th>Sprint #</th>
+    <th colspan="7">Sprint 1</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">Work-Item / Task</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (hours)</td>
+    <td>Assigned To</td>
+    <td>Status</td>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Resultados de búsqueda</td>
+    <td>T01</td>
+    <td>Vista resultados</td>
+    <td>Implementar la pantalla móvil para visualizar<br>los resultados de la búsqueda de prendas</td>
+    <td>4</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US08<br>US09<br></td>
+    <td rowspan="4">Búsqueda de prendas <br>mediante barra y mediante<br>filtros de búsqueda</td>
+    <td>T03</td>
+    <td>Vista de búsqueda</td>
+    <td>Implementar la pantalla móvil para visualizar<br>los resultados de la búsqueda de prendas</td>
+    <td>6</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T04</td>
+    <td>Filtros categóricos de búsqueda</td>
+    <td>Implementar la pantalla móvil para buscar prendas<br>mediante filtros</td>
+    <td>6</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T05</td>
+    <td>Consultas a productos</td>
+    <td>Implementar las funcionalidades en backend para <br>buscar productos</td>
+    <td>4</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T06</td>
+    <td>Relaciones con categorías</td>
+    <td>Relacionar los productos con sus entidades superiores<br>(marca, tipo de prenda, etc.) para soportar las búsquedas</td>
+    <td>4</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US11</td>
+    <td rowspan="5">Información de producto</td>
+    <td>T07</td>
+    <td>Vista detalle de prenda</td>
+    <td>Implementar la pantalla móvil para visualizar <br>el detalle de información de una prenda</td>
+    <td>4</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T08</td>
+    <td>Vista gestión de productos</td>
+    <td>Implementar la interfaz web para gestionar el inventario <br>de productos</td>
+    <td>6</td>
+    <td>Jherico &amp; Kolya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T09</td>
+    <td>Vista gestión detalla de producto</td>
+    <td>Implementar la interfaz web para gestionar la información<br>de los productos (añadir, editar)<br></td>
+    <td>6</td>
+    <td>Jherico &amp; Kolya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T10</td>
+    <td>Endpoint de producto</td>
+    <td>Implementar el endpoint para soportar acciones de <br>obtención de los productos</td>
+    <td>4</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T11</td>
+    <td>Endpoint de detalle de producto</td>
+    <td>Implementar el endpoint para soportar acciones de <br>obtención de detalles de los productos</td>
+    <td>4</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US04</td>
+    <td rowspan="3">Items al carrito</td>
+    <td>T12</td>
+    <td>Vista carrito de compras</td>
+    <td>Implementar la pantalla móvil para que el cliente gestione<br>su carrito de compras</td>
+    <td>6</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T13</td>
+    <td>Endpoint carrito de compras</td>
+    <td>Implementar las funcionalidades backend para gestionar<br>el carrito de compras<br></td>
+    <td>4</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T14</td>
+    <td>Endpoint artículo del carrito</td>
+    <td>Implementar las funcionalidades backend para la gestión <br>de artículos en el carrito de compras</td>
+    <td>8</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">US05</td>
+    <td rowspan="4">Generación de orden de <br>compra</td>
+    <td>T15</td>
+    <td>Vista confirmacion de orden</td>
+    <td>Implementar la pantalla móvil para que el cliente gestione <br>la información relacionada a su orden</td>
+    <td>6</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T16</td>
+    <td>Vista historial de ordenes</td>
+    <td>Implementar la pantalla móvil para que el cliente vea su <br>historial de ordenes</td>
+    <td>2</td>
+    <td>Franco &amp; Juben</td>
+    <td>WIP</td>
+  </tr>
+  <tr>
+    <td>T17</td>
+    <td>Vista gráficos e insights</td>
+    <td>Implementar la interfaz web para que el gestor de inventario<br>visualice datos e información relevante en gráficos sobre el <br>progreso de sus ordenes y productos</td>
+    <td>6</td>
+    <td>Jherico &amp; Kolya</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T18</td>
+    <td>Endpoint orders</td>
+    <td>Implementar las funcionalidades backend para la gestión <br>de órdenes en las aplicaciones</td>
+    <td>6</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Lista de favoritos</td>
+    <td>T19</td>
+    <td>Vista lista de favoritos</td>
+    <td>Implementar la pantalla móvil para que el cliente gestione <br>sus prendas y artículos favoritos</td>
+    <td>4</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>T20</td>
+    <td>Endpoint lista de favoritos</td>
+    <td>Implementar las funcionalidades del backend para la gestión<br>de listas de favoritos y sus elementos</td>
+    <td>6</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Creación de cuenta</td>
+    <td>T21</td>
+    <td>Vista registro</td>
+    <td>Implementar la pantalla móvil para que los usuarios se registren</td>
+    <td>2</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>T22</td>
+    <td>Endpoint users</td>
+    <td>Implementar las funcionalidades que soporten la creación de <br>usuarios </td>
+    <td>2</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Inicio de sesión</td>
+    <td>T23</td>
+    <td>Vista inicio de sesión</td>
+    <td>Implementar la pantalla móvil para que los usuarios inicien<br>sesión en la aplicación</td>
+    <td>2</td>
+    <td>Franco &amp; Juben</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>T24</td>
+    <td>Funcionalidades auth</td>
+    <td>Implementar las funcionalidades del backend que soporten el <br>inicio de sesión y el manejo de tokens para autenticar usuarios</td>
+    <td>4</td>
+    <td>James &amp; Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>T25</td>
+    <td>Vista login web</td>
+    <td>Implementar la interfaz web para que los gestores de inventario<br>inicien sesión en su respectiva aplicación como admins</td>
+    <td>4</td>
+    <td>Jherico &amp; Kolya</td>
+    <td>Done</td>
+  </tr>
+</tbody>
+</table>
+
 #### Development Evidence for Sprint Review
 
 #### Testing Suite Evidence for Sprint Review
