@@ -26,7 +26,7 @@ Utilizaremos GitHub para llevar el control de nuestras versiones de desarrollo. 
 ### Source Code Style Guide & Conventions
 
 Para las convenciones o estilos de programación, seguiremos convenciones básicas de camelCase y UpperCamelCase según el caso. Además, la guía de estilo de Google para programar en HTML y CSS (Google HTML/CSS Style Guide).
-En cuanto a las convenciones para el control de versiones, utilizaremos conventional commits tanto para la creación de ramas (aplicando <type>/<title>) como para la creación de commits (<type>(optional scope): <description>). Como, por ejemplo:
+En cuanto a las convenciones para el control de versiones, utilizaremos conventional commits tanto para la creación de ramas (aplicando type/title) como para la creación de commits (type(optional scope): description). Como, por ejemplo:
 
 - Rama: feat/main-component
 - Commit -> feat(ui): added main componente template
@@ -41,9 +41,72 @@ Para nuestra RESTful API utilizaremos Azure Web App Service.
 
 ## Solution Implementation
 
+En esta sección, detallaremos las etapas de desarrollo de software para los diversos productos de nuestra suite Fitster, separados por iteraciones o sprints bajo el marco ágil de desarrollo.
+
 ### Sprint 1
 
+En la primera iteración, explicaremos los avances de los productos a ofrecer y la evidencia del trabajo colaborativo para alcanzar los objetivos de cada entregable.
+
 #### Sprint Planning 1
+
+La presenta tabla resume el planeamiento de nuestra primera iteración
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-fymr">Sprint #</th>
+    <th class="tg-0pky">Sprint 1</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-fymr" colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Date</td>
+    <td class="tg-0pky">2023-10-16</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Time</td>
+    <td class="tg-0pky">10:00 AM</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Location</td>
+    <td class="tg-0pky">Virtual meeting (Lima)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Prepared by</td>
+    <td class="tg-0pky">Angel Omar Meneses Torres</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Attendees (to planning meeting)</td>
+    <td class="tg-0pky">Angel Meneses<br>Franco Vasquez<br>James Hurtado<br>Jherico Solier<br>Juben Cacha<br>Kolya Castañeda</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Sprint 0 Review Summary</td>
+    <td class="tg-0pky">Como este es el primer sprint que da inicio a la etapa de desarrolllo, <br>no hay alcances previos salvo el landing page.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Sprint 0 Retrospective Summary</td>
+    <td class="tg-0pky">Los miembros del equipo están entusiasmados de empezar a desarrollar<br>las diferentes aplicaciones consideradas para el alcance.</td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" colspan="2">Sprint Goal &amp; User Stories</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Sprint 1 Goal</td>
+    <td class="tg-0pky">Desarrollar las funcionalidades principales de la interfaz web para usuarios<br>que gestionarán su inventario de productos.<br>Desarollar las funcionalidades principales de la interfaz móvil para usuarios<br>clientes que se buscarán, se probarán prendas virtuales y las comprarán<br>Desarrollar la aplicación backend que ofrecerá y soportará las funcionalidades<br>de las aplicaciones frontend previamente descritas. </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Sprint 1 Velocity</td>
+    <td class="tg-0pky">25</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Sum of Story Points</td>
+    <td class="tg-0pky">25</td>
+  </tr>
+</tbody>
+</table>
 
 #### Sprint Backlog 1
 
