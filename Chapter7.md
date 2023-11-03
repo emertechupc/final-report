@@ -281,8 +281,8 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
     <td>Done</td>
   </tr>
   <tr>
-    <td>US06</td>
-    <td>Lista de favoritos</td>
+    <td rowspan="2">US06</td>
+    <td rowspan="2">Lista de favoritos</td>
     <td>T19</td>
     <td>Vista lista de favoritos</td>
     <td>Implementar la pantalla móvil para que el cliente gestione <br>sus prendas y artículos favoritos</td>
@@ -291,8 +291,6 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
     <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
     <td>T20</td>
     <td>Endpoint lista de favoritos</td>
     <td>Implementar las funcionalidades del backend para la gestión<br>de listas de favoritos y sus elementos</td>
@@ -301,8 +299,8 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
     <td>Done</td>
   </tr>
   <tr>
-    <td>US02</td>
-    <td>Creación de cuenta</td>
+    <td rowspan="2">US02</td>
+    <td rowspan="2">Creación de cuenta</td>
     <td>T21</td>
     <td>Vista registro</td>
     <td>Implementar la pantalla móvil para que los usuarios se registren</td>
@@ -311,8 +309,6 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
     <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
     <td>T22</td>
     <td>Endpoint users</td>
     <td>Implementar las funcionalidades que soporten la creación de <br>usuarios </td>
@@ -321,8 +317,8 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
     <td>Done</td>
   </tr>
   <tr>
-    <td>US03</td>
-    <td>Inicio de sesión</td>
+    <td rowspan="3">US03</td>
+    <td rowspan="3">Inicio de sesión</td>
     <td>T23</td>
     <td>Vista inicio de sesión</td>
     <td>Implementar la pantalla móvil para que los usuarios inicien<br>sesión en la aplicación</td>
@@ -331,8 +327,6 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
     <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
     <td>T24</td>
     <td>Funcionalidades auth</td>
     <td>Implementar las funcionalidades del backend que soporten el <br>inicio de sesión y el manejo de tokens para autenticar usuarios</td>
@@ -341,8 +335,6 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
     <td>Done</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
     <td>T25</td>
     <td>Vista login web</td>
     <td>Implementar la interfaz web para que los gestores de inventario<br>inicien sesión en su respectiva aplicación como admins</td>
@@ -353,7 +345,7 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta ite
 </tbody>
 </table>
 
-#### Development Evidence for Sprint Review
+#### Development Evidence for Sprint
 
 #### Testing Suite Evidence for Sprint Review
 
