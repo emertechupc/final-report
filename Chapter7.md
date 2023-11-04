@@ -562,6 +562,34 @@ En esta sección, evidenciamos los principales a manera de commits en los respec
 
 #### Execution Evidence for Sprint Review
 
+Presentamos las capturas que evidencian la ejecución de las aplicaciones desarrolladas para este entregable:
+
+![Sección principal del Landing Page](/assets/landing-1.png)
+![Sección 'About' del Landing Page](/assets/landing-2.png)
+![Sección 'Pricing' del Landing Page](/assets/landing-3.png)
+![Sección 'Partners' & 'Contact' del Landing Page](/assets/landing-4.png)
+
+Para continuar con el flujo, si presionamos el call-to-action en el landing page, nos dirigimos a la aplicación web en la que los usuarios vendedores pueden gestionar el inventario de sus productos: Fister Inventory.
+
+![Vista 'Sign in' de Fitster Inventory](/assets/inventory-1.png)
+![Vista 'Home' de Fitster Inventory](/assets/inventory-2.png)
+![Vista 'Inventory' de Fitster Inventory](/assets/inventory-3.png)
+![Vista 'Resources' de Fitster Inventory](/assets/inventory-4.png)
+![Vista 'Contact' de Fitster Inventory](/assets/inventory-5.png)
+
+Finalmente, mostramos las capturas de nuestra aplicación móvil: Fitster.
+
+![Vista 'Sign up' de Fitster](/assets/mobile-1.jpg)
+![Vista 'Sign in' de Fitster](/assets/mobile-2.jpg)
+![Vista 'Home' de Fitster](/assets/mobile-3.jpg)
+![Vista 'Search' de Fitster](/assets/mobile-4.jpg)
+![Vista 'Search Results' de Fitster](/assets/mobile-5.jpg)
+![Vista 'Product Detail' de Fitster](/assets/mobile-6.jpg)
+![Vista 'Wishlist' de Fitster](/assets/mobile-7.jpg)
+![Vista 'Shopping Cart' de Fitster](/assets/mobile-8.jpg)
+![Vista 'Order' de Fitster](/assets/mobile-9.jpg)
+![Vista 'Profile' de Fitster](/assets/mobile-10.jpg)
+
 #### Services Documentation Evidence for Sprint Review
 
 A continuación, mostramos la documentación de servicios disponibles en nuestro API que soportan las funcionalidades en nuestra interfaz móvil como web. La documentación fue realizada con [Swagger](https://swagger.io/). Adjuntamos las presentes capturas en las que puede visualizarse todos los endpoints disponibles y las acciones CRUD realizables para cada entidad considerada en el alcance de nuestra solución.
