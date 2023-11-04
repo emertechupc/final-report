@@ -568,6 +568,14 @@ En esta sección, evidenciamos los principales a manera de commits en los respec
 
 #### Software Deployment Evidence for Sprint Review
 
+Nuestro Landing Page está desplegado utiizando [GitHub Pages](https://pages.github.com/), herramienta que permite desplegar proyectos directamente desde un repositorio de GitHub. Está disponible en el presente [enlace](https://emertechupc.github.io/fitster_website/).
+
+Nuestra aplicación web Fitster Inventory está desplegada en [Vercel](https://emertechupc.github.io/fitster_website/). Disponible en el presente [enlace](https://frontend-example-flitster.vercel.app).
+
+Nuestra aplicación móvil Fitster está desplegada localmente para el realizar las pruebas y validaciones necesarias. Para futuras iteraciones se generará y compartirá el APK que podría ser subido a Play Store.
+
+Nuestra API Fitster Backend y base de datos está desplegadas en [Azure Web App Services](https://azure.microsoft.com/en-us/products/app-service/web) y [Azure SQL Database](https://azure.microsoft.com/es-es/products/azure-sql/database) respectivamente. El backend está disponible en el siguiente [enlace](https://fitsterupcapi.azurewebsites.net/swagger/index.html).  
+
 #### Team Collaboration Insights during Sprint
 
 ## Validation Interviews
