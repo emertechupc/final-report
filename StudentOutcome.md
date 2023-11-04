@@ -27,7 +27,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Hurtado: Se mantuvo una comunicación eficaz entre los miembros del equipo con el objetivo de delimitar bien el alcance del proyecto y completar las tareas asignadas para el primer entregable.
       </p>
       <p>
-        Meneses: Estuvimos en constante coordinación con los compañeros de equipo para cumplir con los objetivos de la entrega y también comunicar los alcances de nuestra solución en las sesiones de clase para recibir retroalimentación al respecto. 
+        Meneses: Estuvimos en constante coordinación con los compañeros de equipo para cumplir con los objetivos de la entrega y también comunicar los alcances de nuestra solución en las sesiones de clase para recibir retroalimentación al respecto.
       </p>
       <p>
         Solier: Se promovió la colaboración entre los miembros al asegurarse de que todos tuvieran la oportunidad de expresar sus ideas y perspectivas. Esto contribuyó a un ambiente de trabajo armonioso y a la toma de decisiones basada en consenso, fortaleciendo así la eficacia del equipo en la consecución de los objetivos del proyecto.
@@ -47,13 +47,33 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Hurtado: Se realizaron reuniones breves después de clase para dividir las tareas asignadas para este entregable y constante comunicación para evaluar el progreso del trabajo realizado.
       </p>
       <p>
-        Meneses: Nos comunicamos entre los miembros para coordinar la exposición del contenido y alcances logrados para la entrega parcial en un video, dirigido a todo tipo de público con un lenguaje claro. 
+        Meneses: Nos comunicamos entre los miembros para coordinar la exposición del contenido y alcances logrados para la entrega parcial en un video, dirigido a todo tipo de público con un lenguaje claro.
       </p>
       <p>
         Solier:  Comunicó de manera efectiva sus propuestas para el diseño de la interfaz de la aplicación web, además de exlicarlo detalladamente durante la exposición del grupo.
       </p>
       <p>
         Vasquez: Participó en la coordinación y mejora de la presentación del proyecto para lograr una comunicación precisa y ordenada de las ideas.
+      </p>
+      <strong>TB2</strong>
+      <br>
+      <p>
+        Cacha:
+      </p>
+      <p>
+        Castañeda:
+      </p>
+      <p>
+        Hurtado:
+      </p>
+      <p>
+        Meneses: Presentamos iterativamente avances en las sesiones de clase para validar el alcance de nuestras soluciones y recibir retroalimentación para mejorar de cada a futuras entregas.
+      </p>
+      <p>
+        Solier:
+      </p>
+      <p>
+        Vasquez:
       </p>
     </td>
     <td>
@@ -63,7 +83,11 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       </p>
        <strong>TP</strong>
       <p>
-        Pudimos comunicar los alcances hasta la entrega parcial a través de un video de exposición apto para todo tipo de audiencias. 
+        Pudimos comunicar los alcances hasta la entrega parcial a través de un video de exposición apto para todo tipo de audiencias.
+      </p>
+      <strong>TB2</strong>
+      <p>
+        Comunicamos y revisamos la entrega iterativamente junto con el profesor, explicando el alcance y los objetivos logrados.
       </p>
     </td>
   </tr>
@@ -101,7 +125,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
         Hurtado: Para este entregable fue vital analizar las necesidades del usuario final para poder implementar dichas ideas a la sección de UX/UI.
       </p>
       <p>
-        Meneses: Redactamos todos los objetivos conseguidos para la entrega, documentamos cada paso del diseño de experiencias e interfaces de usuario en nuestro reporte. 
+        Meneses: Redactamos todos los objetivos conseguidos para la entrega, documentamos cada paso del diseño de experiencias e interfaces de usuario en nuestro reporte.
       </p>
       <p>
         Solier: Se plasmaron las ideas de la interfaz en wireframes para tener una mejor idea del diseño y la navegación que obtendrán los usuarios.
@@ -109,15 +133,39 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
       <p>
         Vasquez: En esta entrega nos centramos en las bases del diseño que planeamos tener en las aplicaciones web y mobile de nuestro proyecto.
       </p>
+      <strong>TB2</strong>
+      <br>
+      <p>
+        Cacha:
+      </p>
+      <p>
+        Castañeda:
+      </p>
+      <p>
+        Hurtado:
+      </p>
+      <p>
+        Meneses: Describimos en el presente reporte todas las actividades y entregables desarrollados para esta primera iteración (sprint 1), por lo que evidenciamos el desarrollo y proceso colaborativo que inciden en el alcance de la solución.
+      </p>
+      <p>
+        Solier:
+      </p>
+      <p>
+        Vasquez:
+      </p>
     </td>
     <td>
       <strong>TB1</strong>
       <p>
-        Logramos redactar las bases de nuestra solución, aplicando correctamente técnicas previamente estudiantes para el análisis de problema, la definición de historias de usuario y el uso de metodologías como DDD y ADD para analizar los enfoques estratégicos de nuestra propuesta. 
+        Logramos redactar las bases de nuestra solución, aplicando correctamente técnicas previamente estudiantes para el análisis de problema, la definición de historias de usuario y el uso de metodologías como DDD y ADD para analizar los enfoques estratégicos de nuestra propuesta.
       </p>
       <strong>TP</strong>
       <p>
         Redactamos y explicamos todos los entregables y elementos desarrollados para la entrega parcial. De tal manera que el contenido puede ser revisado y entendido por el público general y las ideas expuestas están en un repositorio de libre acceso.
+      </p>
+      <strong>TB2</strong>
+      <p>
+        Evidenciamos textualmente el proceso colaborativo y de desarrollo, evidenciando diversos aspectos como la planeación, ejecución, pruebas, despliegue y aporte según responsabilidad de cada miembro.
       </p>
     </td>
   </tr>
