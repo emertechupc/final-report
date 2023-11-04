@@ -618,6 +618,13 @@ Nuestra API Fitster Backend y base de datos está desplegadas en [Azure Web App 
 
 #### Team Collaboration Insights during Sprint
 
+Adjuntamos las evidencias de desarrollo y colaboración según las tareas asignadas y responsabilidad de cada miembro para implementar las aplicaciones.
+
+![GitHub Insights para el Landing Page](/assets/insights-1-landing.png)
+![GitHub Insights para Fitster Inventory](/assets/insights-1-web.png)
+![GitHub Insights para Fitster Mobile App](/assets/insights-1-mobile.png)
+![GitHub Insights para Fitster Backend](/assets/insights-1-backend.png)
+
 ## Validation Interviews
 
 ### Diseño de Entrevistas
