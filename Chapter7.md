@@ -560,11 +560,23 @@ En esta sección, evidenciamos los principales a manera de commits en los respec
 </tbody>
 </table>
 
-#### Testing Suite Evidence for Sprint Review
-
 #### Execution Evidence for Sprint Review
 
 #### Services Documentation Evidence for Sprint Review
+
+A continuación, mostramos la documentación de servicios disponibles en nuestro API que soportan las funcionalidades en nuestra interfaz móvil como web. La documentación fue realizada con [Swagger](https://swagger.io/). Adjuntamos las presentes capturas en las que puede visualizarse todos los endpoints disponibles y las acciones CRUD realizables para cada entidad considerada en el alcance de nuestra solución.
+
+![Primera captura de documentación con Swagger](/assets/services-1.png)
+![Segunda captura de documentación con Swagger](/assets/services-2.png)
+![Tercera captura de documentación con Swagger](/assets/services-3.png)
+![Cuarta captura de documentación con Swagger](/assets/services-4.png)
+![Quinta captura de documentación con Swagger](/assets/services-5.png)
+
+Asimismo, en la parte inferior se pueden visualizar todos los esquemas para realizar solicitudes correctamente y recibir recursos.
+
+![Captura de esquemas de recursos y requests](/assets/services-schemas.png)
+
+Toda esta documentación de servicios está disponible y es interactiva para las pruebas desde [Swagger UI](https://fitsterupcapi.azurewebsites.net/swagger/index.html).
 
 #### Software Deployment Evidence for Sprint Review
 
