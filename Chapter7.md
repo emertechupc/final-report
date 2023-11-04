@@ -633,4 +633,41 @@ Adjuntamos las evidencias de desarrollo y colaboración según las tareas asigna
 
 ### Evaluaciones según heurísticas
 
+Evaluamos nuestra aplicación móvil según heurísticas de usabilidad y arquitectura de información, identificando los siguientes problemas:
+
+| # | Problema                                                                                              | Escala de severidad | Heurística/Principio violado(a)                    |
+|---|-------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------|
+| 1 | Sección de características de la prenda no muestra reseñas de usuarios                                | 3                   | Information Architecture - ¿Es controlable?        |
+| 2 | Cambio de idioma                                                                                      | 2                   | Usabilidad - ¿Es fácil de usar y entender?         |
+| 3 | Incluye una opción de colocar filtros personalizados, mas no barra de búsqueda                        | 3                   | Information Architecture - ¿Es fácil de encontrar? |
+| 4 | Sección de características de la prenda no muestra prendas similares que podrían interesar al usuario | 2                   | Information Architecture - ¿Es fácil de encontrar? |
+
+#### Descripción de problemas
+
+**Sección de características de la prenda no muestra reseñas de usuarios**
+*Severidad:* 3
+*Heurística violada:* Information Architecture - ¿Es controlable?
+*Problema:* La sección de características de las prendas en el probador virtual no muestra reseñas de usuarios, lo que dificulta a los usuarios obtener información adicional y opiniones sobre la prenda antes de tomar una decisión de compra.
+*Recomendación:* Agregar una funcionalidad que permita a los usuarios ver y leer reseñas de otros usuarios sobre las prendas en la sección de características del probador virtual.
+
+**Cambio de idioma**
+*Severidad:* 2
+*Heurística violada:* Usabilidad - ¿Es fácil de usar y entender?
+*Problema:* El probador virtual de ropa no ofrece una opción clara y accesible para cambiar el idioma, lo que dificulta a los usuarios que no hablan el idioma predeterminado comprender y utilizar la aplicación de manera efectiva.
+*Recomendación:* Agregar una funcionalidad para cambiar el idioma en el probador virtual, permitiendo a los usuarios seleccionar su idioma preferido de manera fácil y accesible.
+
+**Incluye una opción de colocar filtros personalizados, mas no barra de búsqueda**
+*Severidad:* 3
+*Heurística violada:* Information Architecture - ¿Es fácil de encontrar?
+*Problema:* El probador virtual incluye una barra de búsqueda para encontrar prendas específicas, pero no brinda la opción de colocar filtros personalizados, lo que limita la capacidad de los usuarios para refinar y encontrar rápidamente las prendas que se ajusten a sus preferencias y necesidades.
+*Recomendación:* Agregar la opción de colocar filtros personalizados en el probador virtual, donde el usuario pueda definir precio, marca, color, entre otros. De esa manera, permitirá a los usuarios refinar su búsqueda y encontrar prendas de acuerdo a sus preferencias específicas.
+
+**Sección de características de la prenda no muestra prendas similares que podrían interesar al usuario**
+*Severidad:* 2
+*Heurística violada:* Information Architecture - ¿Es fácil de encontrar?
+*Problema:* En la sección de características de la prenda en el probador virtual, no se muestran prendas similares que podrían interesar al usuario, lo que limita su capacidad para descubrir y explorar más opciones relacionadas.
+*Recomendación:* Agregar una sección de "Productos relacionados" en la sección de características de la prenda en el probador virtual, que muestre prendas similares o complementarias que podrían interesar al usuario.
+
 ## Video About-the-Product
+
+Adjuntamos el video publicitario de nuestra aplicación móvil [Fitster subido a Youtube](https://youtu.be/vPKuGytEvik).
