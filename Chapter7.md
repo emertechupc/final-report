@@ -771,6 +771,54 @@ A continuación, visualizamos las historias de usuario a desarrollar en esta seg
 
 En esta sección, evidenciamos los principales a manera de commits en los respectivos repositorios de desarrollo de nuestra solución. Evidentemente, todo el proceso completo de desarrollo puede visualizarse en los repositorios previamente referenciados.
 
+![Vista de búsqueda de prendas](/assets/search-view.jpg)
+![Vista del Shopping Cart](/assets/shopping-cart.jpg)
+![Vista del realidad aumentada en el detalle de prenda](/assets/ar-1.jpg)
+![Vista del realidad aumentada en en la cámara](/assets/ar-2.jpg)
+
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit id</th>
+    <th>Commit message</th>
+    <th>Commit body message</th>
+    <th>Committed on</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>fitster_website</td>
+    <td>feat/videos</td>
+    <td>8dd0514</td>
+    <td>feat</td>
+    <td>added videos to its section</td>
+    <td>20/11/2023</td>
+  </tr>
+  <tr>
+    <td rowspan="3">fitster_app</td>
+    <td rowspan="3">develop</td>
+    <td>19fffe0</td>
+    <td>feat</td>
+    <td>add images for search view</td>
+    <td>21/11/2023</td>
+  </tr>
+  <tr>
+    <td>cad468d</td>
+    <td>feat</td>
+    <td>add function with ar camera</td>
+    <td>21/11/2023</td>
+  </tr>
+  <tr>
+    <td>734c474</td>
+    <td>feat</td>
+    <td>add shopping cart</td>
+    <td>21/11/2023</td>
+  </tr>
+</tbody>
+</table>
+
 #### Execution Evidence for Sprint Review
 
 #### Services Documentation Evidence for Sprint Review
