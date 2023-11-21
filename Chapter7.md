@@ -625,11 +625,236 @@ Adjuntamos las evidencias de desarrollo y colaboración según las tareas asigna
 ![GitHub Insights para Fitster Mobile App](/assets/insights-1-mobile.png)
 ![GitHub Insights para Fitster Backend](/assets/insights-1-backend.png)
 
-## Validation Interviews
+### Sprint 2
 
-### Diseño de Entrevistas
+En la primera iteración, explicaremos los avances de los productos a ofrecer y la evidencia del trabajo colaborativo para alcanzar los objetivos de cada entregable.
 
-### Registro de Entrevistas
+#### Sprint Planning 2
+
+La presenta tabla resume el planeamiento de nuestra segunda iteración
+
+<table class="tg">
+ <thead>
+  <tr style="height: 22.2px;">
+   <th class="tg-fymr" style="height: 22.2px;">Sprint #</th>
+   <th class="tg-0pky" style="height: 22.2px;">Sprint 2</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr style="height: 22px;">
+   <td class="tg-fymr" style="height: 22px;" colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr style="height: 22px;">
+   <td class="tg-0pky" style="height: 22px;">Date</td>
+   <td class="tg-0pky" style="height: 22px;">2023-11-15</td>
+  </tr>
+  <tr style="height: 22px;">
+   <td class="tg-0pky" style="height: 22px;">Time</td>
+   <td class="tg-0pky" style="height: 22px;">10:00 AM</td>
+  </tr>
+  <tr style="height: 22px;">
+   <td class="tg-0pky" style="height: 22px;">Location</td>
+   <td class="tg-0pky" style="height: 22px;">Virtual meeting (Lima)</td>
+  </tr>
+  <tr style="height: 22px;">
+   <td class="tg-0pky" style="height: 22px;">Prepared by</td>
+   <td class="tg-0pky" style="height: 22px;">Angel Omar Meneses Torres</td>
+  </tr>
+  <tr style="height: 122px;">
+   <td class="tg-0pky" style="height: 122px;">Attendees (to planning meeting)</td>
+   <td class="tg-0pky" style="height: 122px;">Angel Meneses<br />Franco Vasquez<br />James Hurtado<br />Jherico Solier<br />Juben Cacha<br />Kolya Casta&ntilde;eda</td>
+  </tr>
+  <tr style="height: 42px;">
+   <td class="tg-0pky" style="height: 42px;">Sprint 1 Review Summary</td>
+   <td class="tg-0pky" style="height: 42px;">Previamente, logramos desarrollar por completo los siguientes productos:<br />- Landing Page<br />- Web Application: Fitster Inventory<br />- API: Fitster Backend<br />- Mobile Application: Fitster (80%)</td>
+  </tr>
+  <tr style="height: 42px;">
+   <td class="tg-0pky" style="height: 42px;">Sprint 1 Retrospective Summary</td>
+   <td class="tg-0pky" style="height: 42px;">
+    <p>Los miembros del equipo est&aacute;n&nbsp;comprometidos con los objetivos del proyecto.</p>
+    <p>Se lograron objetivos importantes, de tal forma que para este segundo y &uacute;ltimo <br />sprint, se enfocar&aacute;n los esfuerzos en consolidar la tecnolog&iacute;a emergente y&nbsp;<br />mejorar ciertos aspectos de las aplicaciones</p>
+   </td>
+  </tr>
+  <tr style="height: 22px;">
+   <td class="tg-fymr" style="height: 22px;" colspan="2">Sprint Goal &amp; User Stories</td>
+  </tr>
+  <tr style="height: 122px;">
+   <td class="tg-0pky" style="height: 122px;">Sprint 2 Goal</td>
+   <td class="tg-0pky" style="height: 122px;">
+    <p>Implementar la tecnolog&iacute;a emergente: realidad virtual y realidad aumentada</p>
+    <p>Mejorar las vistas ya existentes de las aplicaciones Fitster</p>
+   </td>
+  </tr>
+  <tr style="height: 22px;">
+   <td class="tg-0pky" style="height: 22px;">Sprint 2 Velocity</td>
+   <td class="tg-0pky" style="height: 22px;">20</td>
+  </tr>
+  <tr style="height: 22px;">
+   <td class="tg-0pky" style="height: 22px;">Sum of Story Points</td>
+   <td class="tg-0pky" style="height: 22px;">8</td>
+  </tr>
+ </tbody>
+</table>
+
+#### Sprint Backlog 2
+
+A continuación, visualizamos las historias de usuario a desarrollar en esta segunda iteración, así como su descomposición por tareas.
+
+<table>
+<thead>
+  <tr>
+    <th>Sprint #</th>
+    <th colspan="7">Sprint 2</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">Work-Item / Task</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (hours)</td>
+    <td>Assigned to</td>
+    <td>Status</td>
+  </tr>
+  <tr>
+    <td rowspan="5">US01</td>
+    <td rowspan="5">Realidad aumentada para observar productos</td>
+    <td>TS26</td>
+    <td>Investigación</td>
+    <td>Investigar acerca de las principales herramientas para implementar AR en Flutter</td>
+    <td>6</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS27</td>
+    <td>Selección</td>
+    <td>Seleccionar los plugins y bibliotecas a utilizar para integrar AR en nuestra aplicación</td>
+    <td>2</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS28</td>
+    <td>Búsqueda de modelos</td>
+    <td>Buscar modelos de prendas 3D gratuitos en línea para validar la implementación</td>
+    <td>4</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS29</td>
+    <td>Implementación</td>
+    <td>Implementar las funcionalidades para poder mostrar los modelos 3D en pantalla del móvil a través de la cámara</td>
+    <td>8</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS30</td>
+    <td>Pruebas</td>
+    <td>Probar las funcionalidades y ajustar los errores encontrados para consolidar la implementación</td>
+    <td>6</td>
+    <td>Team</td>
+    <td>Done</td>
+  </tr>
+</tbody>
+</table>
+
+#### Development Evidence for Sprint
+
+En esta sección, evidenciamos los principales a manera de commits en los respectivos repositorios de desarrollo de nuestra solución. Evidentemente, todo el proceso completo de desarrollo puede visualizarse en los repositorios previamente referenciados.
+
+![Vista de búsqueda de prendas](/assets/search-view.jpg)
+![Vista del Shopping Cart](/assets/shopping-cart.jpg)
+![Vista del realidad aumentada en el detalle de prenda](/assets/ar-1.jpg)
+![Vista del realidad aumentada en en la cámara](/assets/ar-2.jpg)
+
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit id</th>
+    <th>Commit message</th>
+    <th>Commit body message</th>
+    <th>Committed on</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>fitster_website</td>
+    <td>feat/videos</td>
+    <td>8dd0514</td>
+    <td>feat</td>
+    <td>added videos to its section</td>
+    <td>20/11/2023</td>
+  </tr>
+  <tr>
+    <td rowspan="3">fitster_app</td>
+    <td rowspan="3">develop</td>
+    <td>19fffe0</td>
+    <td>feat</td>
+    <td>add images for search view</td>
+    <td>21/11/2023</td>
+  </tr>
+  <tr>
+    <td>cad468d</td>
+    <td>feat</td>
+    <td>add function with ar camera</td>
+    <td>21/11/2023</td>
+  </tr>
+  <tr>
+    <td>734c474</td>
+    <td>feat</td>
+    <td>add shopping cart</td>
+    <td>21/11/2023</td>
+  </tr>
+</tbody>
+</table>
+
+#### Execution Evidence for Sprint Review
+
+#### Services Documentation Evidence for Sprint Review
+
+A continuación, mostramos la documentación de servicios disponibles en nuestro API que soportan las funcionalidades en nuestra interfaz móvil como web. La documentación fue realizada con [Swagger](https://swagger.io/). Adjuntamos las presentes capturas en las que puede visualizarse todos los endpoints disponibles y las acciones CRUD realizables para cada entidad considerada en el alcance de nuestra solución.
+
+![Primera captura de documentación con Swagger](/assets/services-1.png)
+![Segunda captura de documentación con Swagger](/assets/services-2.png)
+![Tercera captura de documentación con Swagger](/assets/services-3.png)
+![Cuarta captura de documentación con Swagger](/assets/services-4.png)
+![Quinta captura de documentación con Swagger](/assets/services-5.png)
+
+Asimismo, en la parte inferior se pueden visualizar todos los esquemas para realizar solicitudes correctamente y recibir recursos.
+
+![Captura de esquemas de recursos y requests](/assets/services-schemas.png)
+
+Toda esta documentación de servicios está disponible y es interactiva para las pruebas desde [Swagger UI](https://fitsterupcapi.azurewebsites.net/swagger/index.html).
+
+#### Software Deployment Evidence for Sprint Review
+
+Nuestro Landing Page está desplegado utiizando [GitHub Pages](https://pages.github.com/), herramienta que permite desplegar proyectos directamente desde un repositorio de GitHub. Está disponible en el presente [enlace](https://emertechupc.github.io/fitster_website/).
+
+Nuestra aplicación web Fitster Inventory está desplegada en [Vercel](https://emertechupc.github.io/fitster_website/). Disponible en el presente [enlace](https://frontend-example-flitster.vercel.app).
+
+Nuestra aplicación móvil Fitster está desplegada localmente para el realizar las pruebas y validaciones necesarias.
+
+Nuestra API Fitster Backend y base de datos está desplegadas en [Azure Web App Services](https://azure.microsoft.com/en-us/products/app-service/web) y [Azure SQL Database](https://azure.microsoft.com/es-es/products/azure-sql/database) respectivamente. El backend está disponible en el siguiente [enlace](https://fitsterupcapi.azurewebsites.net/swagger/index.html).  
+
+#### Team Collaboration Insights during Sprint
+
+Adjuntamos las evidencias de desarrollo y colaboración según las tareas asignadas y responsabilidad de cada miembro para implementar las aplicaciones.
+
+![GitHub Insights para el Landing Page](/assets/insights-1-landing.png)
+![GitHub Insights para Fitster Inventory](/assets/insights-1-web.png)
+![GitHub Insights para Fitster Mobile App](/assets/insights-1-mobile.png)
+![GitHub Insights para Fitster Backend](/assets/insights-1-backend.png)
 
 ### Evaluaciones según heurísticas
 
@@ -671,3 +896,7 @@ Evaluamos nuestra aplicación móvil según heurísticas de usabilidad y arquite
 ## Video About-the-Product
 
 Adjuntamos el video publicitario de nuestra aplicación móvil [Fitster subido a Youtube](https://youtu.be/vPKuGytEvik).
+
+## Video About-the-Team
+
+Adjuntamos el video publicitario de nuestra aplicación móvil [Team opinion subido a Youtube](https://youtu.be/XHj1OZKBQLQ).
