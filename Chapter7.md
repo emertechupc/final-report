@@ -848,3 +848,7 @@ Evaluamos nuestra aplicación móvil según heurísticas de usabilidad y arquite
 ## Video About-the-Product
 
 Adjuntamos el video publicitario de nuestra aplicación móvil [Fitster subido a Youtube](https://youtu.be/vPKuGytEvik).
+
+## Video About-the-Team
+
+Adjuntamos el video publicitario de nuestra aplicación móvil [Team opinion subido a Youtube](https://youtu.be/XHj1OZKBQLQ).
