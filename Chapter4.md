@@ -412,26 +412,53 @@ En la siguiente sección se especifican la relación de escenarios priorizados p
 
 ### EventStorming
 
-El equipo colaboró efectivamente para explorar y definir las principales ideas que conforman el proceso de creación del EventStorming. Primero, nos organizamos para recapitular los principales procesos que ocurren dentro de nuestro sistema, es así que fuimos realizando un tablero con la herramienta Jamboard de Google para organizar nuestras ideas a modo de boceto sobre cómo funcionarían los flujos de un cliente usando nuestra plataforma:
+En la fase inicial del Event Storming, liberamos nuestra imaginación para concebir ideas sin restricciones. Esta etapa es una hoja en blanco donde las posibilidades son infinitas. En la captura inicial, vemos la semilla de nuestra visión y las ideas relacionadas al dominio empresarial de nuestro producto. Este paso permitió desbloquear el potencial completo de nuestra visión de negocio, guiándonos hacia un territorio de posibilidades ilimitadas.
 
-![EventStorming](/assets/event-storming-1.png)
+![EventStorming](/assets/event-storming-1.jpg)
 
-En esta primera captura de evidencia, podemos visualizar como planteamos una idea preliminar sobre el uso de nuestra solución. Evidenciamos el flujo objetivo que buscamos nuestros usuarios sigan cuando usen nuestro sistema. Por eso, puede verse como las flechas dirigen de izquierda a derecha la serie de pasos generales y externos que se realizan, mientras que la zona delimitada son todos los elementos que rodearían y compondrían nuestra solución IoT.
+En la fase de Timelines del Event Storming, delineamos la secuencia temporal de eventos en nuestra solución. Cada evento se plasma en una línea temporal, revelando la interacción entre los elementos. Esta captura proporciona un mapa cronológico detallado desde el inicio hasta la conclusión de la experiencia del usuario, destacando hitos clave en el proceso. Visualizar los eventos en secuencia ofrece una comprensión profunda de la dinámica, identificando áreas de mejora y posibles cuellos de botella. Esta fase es esencial para asegurar una implementación fluida y eficaz, proporcionando a los usuarios una experiencia cohesiva y sin interrupciones.
 
-![EventStorming](/assets/event-storming-2.png)
+![EventStorming](/assets/event-storming-2.jpg)
 
-Luego, en una primera versión de nuestro EventStorming, escribimos en post-its la serie de eventos y comandos que se desencadenan usando nuestra plataforma. En este primer acercamiento planteamos las ideas de arriba hacia abajo, donde los eventos que están en la parte superior desencadenan los que están debajo, y así sucesivamente. Gracias a esta técnica pudimos descubrir la serie de procesos y flujos que abarcaría y seguiría un usuario usando nuestro sistema.
-En adelante, transcribimos esas ideas generales a un tablero en Lucidchart, agrupamos los eventos y comandos definidos, según afinidad, cercanía o relación, en grandes congregados delimitados como bounded contexts. De esta manera, pudimos concretar el proceso de Event Storming satisfactoriamente, obteniendo este diagrama final como resultado:
+En la fase de Pain Points del Event Storming, nos enfocamos en identificar los puntos críticos que pueden generar fricciones o dificultades para los usuarios. Estos puntos representan obstáculos potenciales en la experiencia de compra que debemos abordar.Esta captura de evidencia revela los puntos de dolor específicos que los usuarios podrían enfrentar al interactuar con nuestra solución. Al reconocer estos desafíos, estamos en una posición sólida para desarrollar estrategias efectivas de mitigación y mejora.
 
-![EventStorming](/assets/event-storming-3.png)
+![EventStorming](/assets/event-storming-3.jpg)
+
+En el paso de Pivotal Points del Event Storming, nos enfocamos en reconocer los momentos cruciales que tienen un impacto significativo en la experiencia del usuario. Estos puntos representan las interacciones y decisiones clave que definen el curso de la experiencia. Esta captura de evidencia revela los puntos pivotales específicos que los usuarios encuentran al interactuar con nuestra solución. Al comprender y optimizar estos momentos, podemos garantizar una experiencia más fluida y satisfactoria.
+
+![EventStorming](/assets/event-storming-4.jpg)
+
+En el paso de Comandos del Event Storming, nos centramos en identificar las acciones específicas que el sistema debe llevar a cabo en respuesta a eventos. Estos comandos representan las instrucciones concretas que guiarán el funcionamiento de nuestra solución. Esta captura de evidencia destaca los comandos críticos que se activarán en distintos momentos de la interacción del usuario con nuestra solución. Estos son los impulsos que transformarán la experiencia y generarán resultados tangibles.
+
+![EventStorming](/assets/event-storming-5.jpg)
+
+En el paso de Políticas del Event Storming, nos adentramos en la definición de las directrices y reglas que gobiernan el comportamiento de nuestra solución. Estas políticas actúan como cimientos para asegurar una operación coherente y confiable. Esta captura de evidencia resalta las políticas clave que guiarán la interacción entre el usuario y nuestra solución. Son los principios que garantizan la integridad y seguridad de la experiencia.
+
+![EventStorming](/assets/event-storming-6.jpg)
+
+En el paso de Modelos de Lectura del Event Storming, nos enfocamos en definir cómo se presentará y visualizará la información crucial para los usuarios. Estos modelos representan la forma en que la solución entregará datos de manera clara y comprensible. Esta captura de evidencia destaca los modelos de lectura que guiarán la presentación de información en la interacción del usuario con nuestra solución. Son la clave para asegurar que los datos sean accesibles y significativos.
+
+![EventStorming](/assets/event-storming-7.jpg)
+
+En el paso de Sistemas Externos del Event Storming, nos concentramos en identificar y comprender cómo nuestra solución interactúa con otros sistemas y entornos externos. Estos sistemas representan componentes clave en el ecosistema más amplio en el que opera nuestra solución. Esta captura de evidencia resalta las conexiones vitales con sistemas externos que influyen en la experiencia del usuario con nuestra solución. Comprender estas interacciones es esencial para garantizar una integración fluida y sin problemas.
+
+![EventStorming](/assets/event-storming-8.jpg)
+
+En el paso de Agregados del Event Storming, nos enfocamos en identificar y definir conjuntos cohesivos de información que representan unidades de significado en nuestra solución. Estos agregados agrupan y organizan datos relevantes que interactúan de manera interdependiente. Esta captura de evidencia resalta los agregados clave que forman la estructura fundamental de nuestra solución. Cada uno representa una entidad con su propio conjunto de datos y reglas de negocio.
+
+![EventStorming](/assets/event-storming-9.jpg)
+
+En el paso de Contextos Delimitados del Event Storming, nos centramos en establecer límites claros alrededor de conjuntos de funcionalidades y conceptos relacionados en nuestra solución. Estos contextos representan áreas autónomas de significado y operación. Esta captura de evidencia destaca los contextos delimitados que delinean áreas específicas de funcionalidad en nuestra solución. Cada contexto tiene su propio significado y propósito, permitiendo una gestión más efectiva de la complejidad.
+
+![EventStorming](/assets/event-storming-10.jpg)
 
 ### Candidate Context Discovery
 
 En esta sección, identificamos mediante la técnica de **start-with-value** los contextos candidatos al profundo análisis de su funcionamiento. Esto debido a que representan la lógica principal o modelo de negocio. Estos bounded context son los dos que conforman nuestro sistema. Ambos son lo suficientemente autoexplicativos según los eventos que los componen, además definen de manera precisa cada etapa del proceso que buscamos los clientes sigan al usar nuestro sistema.
 
-![Candidate Context Discovery](/assets/candidate-context-discovery-1.png)
+![Candidate Context Discovery](/assets/candidate-context-discovery-1.jpg)
 
-![Candidate Context Discovery](/assets/candidate-context-discovery-2.png)
+![Candidate Context Discovery](/assets/candidate-context-discovery-2.jpg)
 
 ### Domain Message Flows Modeling
 
